@@ -1,0 +1,4 @@
+repository "swordofshadow/prueba2@4674065924453@cloud"
+  path "/"
+    br "/main"
+    co "/main"
