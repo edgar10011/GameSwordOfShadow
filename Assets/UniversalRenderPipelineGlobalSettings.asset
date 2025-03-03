@@ -128,8 +128,8 @@ MonoBehaviour:
       data:
         m_Version: 0
         m_StripUnusedPostProcessingVariants: 0
-        m_StripUnusedVariants: 1
-        m_StripScreenCoordOverrideVariants: 1
+        m_StripUnusedVariants: 0
+        m_StripScreenCoordOverrideVariants: 0
     - rid: 7752762179098771461
       type: {class: RenderGraphSettings, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
@@ -190,8 +190,8 @@ MonoBehaviour:
       type: {class: RenderGraphGlobalSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:
         m_version: 0
-        m_EnableCompilationCaching: 1
-        m_EnableValidityChecks: 1
+        m_EnableCompilationCaching: 0
+        m_EnableValidityChecks: 0
     - rid: 7752762179098771469
       type: {class: ProbeVolumeRuntimeResources, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:
@@ -249,6 +249,6 @@ MonoBehaviour:
       type: {class: ShaderStrippingSetting, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
       data:
         m_Version: 0
-        m_ExportShaderVariants: 1
+        m_ExportShaderVariants: 0
         m_ShaderVariantLogLevel: 0
-        m_StripRuntimeDebugShaders: 1
+        m_StripRuntimeDebugShaders: 0
