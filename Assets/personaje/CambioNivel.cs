@@ -1,41 +1,49 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Importante para cambiar de escena
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class CambioNivel : MonoBehaviour
 {
+    public Animator transition;
+
+    public float transitionTime = 1f;
     void Start()
     {
-        // Puedes inicializar variables si lo necesitas
+
     }
 
     void Update()
     {
-        // No se necesita lógica en Update para cambiar de nivel
+
     }
 
-    // Detecta colisiones normales (si el objeto tiene un Collider2D NO marcado como Trigger)
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("cambio")) // Verifica el tag "cambio"
+        if (collision.gameObject.CompareTag("cambio"))
         {
-            CambiarNivel();
+            CargarSigNivel();
         }
     }
 
-    // Detecta colisiones con Triggers (si el Collider2D del objeto "cambio" tiene activado "Is Trigger")
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("cambio")) 
+        if (other.CompareTag("cambio"))
         {
-            CambiarNivel();
+            CargarSigNivel();
         }
     }
 
-    // Método para cambiar de nivel
-    private void CambiarNivel()
+    public void CargarSigNivel()
     {
-        Debug.Log("Cambiando de nivel...");
-        int nivelActual = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(nivelActual + 1); // Carga la siguiente escena
+        StartCoroutine(CargarNivel(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+
+
+    IEnumerator CargarNivel(int levelIndex)
+    {
+        transition.SetTrigger("Start");
+        yield return new WaitForSeconds(transitionTime);
+        SceneManager.LoadScene(levelIndex);
     }
 }
