@@ -71,6 +71,10 @@ public class PlayerMovement : MonoBehaviour
         {
             audioManager.StopSFX();
         }
+        if (moveInput.sqrMagnitude == 0)
+        {
+            playerRb.linearVelocity = Vector2.zero;
+        }
     }
 
     private void DetectArcadeButtons()

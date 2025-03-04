@@ -52,5 +52,8 @@ TagManager:
   - name: personaje
     uniqueID: 3033318619
     locked: 0
+  - name: enemigos
+    uniqueID: 3719820701
+    locked: 0
   m_RenderingLayers:
   - Default
