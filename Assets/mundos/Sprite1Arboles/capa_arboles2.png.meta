@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: e9631f6231d957043b4419af887b440c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 553246379774321619
+    second: capa_arboles2_0
+  - first:
+      213: -6825449298159882171
+    second: capa_arboles2_1
+  - first:
+      213: -1618547585511118245
+    second: capa_arboles2_2
+  - first:
+      213: -3256130670505293305
+    second: capa_arboles2_3
+  - first:
+      213: -2505492320383292930
+    second: capa_arboles2_4
+  - first:
+      213: 1754214725788336385
+    second: capa_arboles2_5
+  - first:
+      213: 7823713167673133587
+    second: capa_arboles2_6
+  - first:
+      213: -1898173441928676590
+    second: capa_arboles2_7
+  - first:
+      213: -5366660252469977400
+    second: capa_arboles2_8
+  - first:
+      213: 711855610102538779
+    second: capa_arboles2_9
+  - first:
+      213: -2792016728755636923
+    second: capa_arboles2_10
+  - first:
+      213: 2202075556963688156
+    second: capa_arboles2_11
+  - first:
+      213: -3596968756585826345
+    second: capa_arboles2_12
+  - first:
+      213: -4660035374731092481
+    second: capa_arboles2_13
+  - first:
+      213: 1597370632672504026
+    second: capa_arboles2_14
+  - first:
+      213: -1763971056231825912
+    second: capa_arboles2_15
+  - first:
+      213: -5425915747458967673
+    second: capa_arboles2_16
+  - first:
+      213: 7427716265034222948
+    second: capa_arboles2_17
+  - first:
+      213: -6262306590550020733
+    second: capa_arboles2_18
+  - first:
+      213: -4535729166277756355
+    second: capa_arboles2_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: capa_arboles2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1473
+        width: 129
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d328b3b6a68da700800000000000000
+      internalID: 553246379774321619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_1
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1535
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540bdbea6022741a0800000000000000
+      internalID: -6825449298159882171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_2
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1439
+        width: 124
+        height: 116
+      alignment: 9
+      pivot: {x: 0.491967, y: 0.25095552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a2b81eb83c989e0800000000000000
+      internalID: -1618547585511118245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1439
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a074a2866efc2d0800000000000000
+      internalID: -3256130670505293305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_4
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1279
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9a5106204ba3dd0800000000000000
+      internalID: -2505492320383292930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_5
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1151
+        width: 124
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1018f56bff8385810800000000000000
+      internalID: 1754214725788336385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_6
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1087
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a04b79ca9639c60800000000000000
+      internalID: 7823713167673133587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_7
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1100
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21bb2cfbf4558a5e0800000000000000
+      internalID: -1898173441928676590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_8
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1055
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce91552feac585b0800000000000000
+      internalID: -5366660252469977400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 929
+        width: 98
+        height: 92
+      alignment: 9
+      pivot: {x: 0.48892024, y: 0.24034384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12e783e7e401e900800000000000000
+      internalID: 711855610102538779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_10
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 799
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5457293f393c049d0800000000000000
+      internalID: -2792016728755636923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_11
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 831
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde146d4d085f8e10800000000000000
+      internalID: 2202075556963688156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 321
+        width: 154
+        height: 170
+      alignment: 9
+      pivot: {x: 0.42432418, y: 0.26006326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7f58339fff41ec0800000000000000
+      internalID: -3596968756585826345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_13
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 351
+        width: 158
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd1660448a345fb0800000000000000
+      internalID: -4660035374731092481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_14
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 415
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8e51f80200b2610800000000000000
+      internalID: 1597370632672504026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_15
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 257
+        width: 154
+        height: 170
+      alignment: 9
+      pivot: {x: 0.4450089, y: 0.21771294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e3b379bad1587e0800000000000000
+      internalID: -1763971056231825912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_16
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 255
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787928b106643b4b0800000000000000
+      internalID: -5425915747458967673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_17
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 191
+        width: 124
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d81cdd69c841760800000000000000
+      internalID: 7427716265034222948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_18
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 99
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38dada3c551d719a0800000000000000
+      internalID: -6262306590550020733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa_arboles2_19
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ab2a6ca5add01c0800000000000000
+      internalID: -4535729166277756355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8b95641a175c8e64a8d1b47fa9bb8e8a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      capa_arboles2_0: 553246379774321619
+      capa_arboles2_1: -6825449298159882171
+      capa_arboles2_10: -2792016728755636923
+      capa_arboles2_11: 2202075556963688156
+      capa_arboles2_12: -3596968756585826345
+      capa_arboles2_13: -4660035374731092481
+      capa_arboles2_14: 1597370632672504026
+      capa_arboles2_15: -1763971056231825912
+      capa_arboles2_16: -5425915747458967673
+      capa_arboles2_17: 7427716265034222948
+      capa_arboles2_18: -6262306590550020733
+      capa_arboles2_19: -4535729166277756355
+      capa_arboles2_2: -1618547585511118245
+      capa_arboles2_3: -3256130670505293305
+      capa_arboles2_4: -2505492320383292930
+      capa_arboles2_5: 1754214725788336385
+      capa_arboles2_6: 7823713167673133587
+      capa_arboles2_7: -1898173441928676590
+      capa_arboles2_8: -5366660252469977400
+      capa_arboles2_9: 711855610102538779
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

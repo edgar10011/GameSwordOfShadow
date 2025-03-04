@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - cambio
+  - nivel1
+  - nivel2
+  - SpawnNivel1
+  - SpawnNivel2
   layers:
   - Default
   - TransparentFX
