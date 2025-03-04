@@ -6,6 +6,9 @@ TagManager:
   tags:
   - cambio
   - AudioManager
+  - SpawnNivel2
+  - nivel2
+  - nivel1
   layers:
   - Default
   - TransparentFX
