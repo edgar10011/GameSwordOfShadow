@@ -10,6 +10,16 @@ public class CambioNivel : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.CompareTag("nivel8"))
+        {
+            spawnTagDestino = "SpawnFinal";
+            StartCoroutine(CargarNivel(7)); 
+        }
+        if (collision.gameObject.CompareTag("nivel7"))
+        {
+            spawnTagDestino = "SpawnNivel7";
+            StartCoroutine(CargarNivel(6)); 
+        }
          if (collision.gameObject.CompareTag("nivel6"))
         {
             spawnTagDestino = "SpawnNivel6";
@@ -65,6 +75,17 @@ public class CambioNivel : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.CompareTag("nivel8"))
+        {
+            spawnTagDestino = "SpawnFinal";
+            StartCoroutine(CargarNivel(7)); 
+        }
+        
+        if (other.CompareTag("nivel7"))
+        {
+            spawnTagDestino = "SpawnNivel7";
+            StartCoroutine(CargarNivel(6)); 
+        }
         if (other.CompareTag("nivel5.6"))
         {
             spawnTagDestino = "SpawnNivel5.6";

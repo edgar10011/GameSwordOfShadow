@@ -27,6 +27,11 @@ TagManager:
   - nivel5.6
   - nivel6
   - SpawnNivel5.6
+  - SpawnNivel7
+  - nivel7
+  - nivel8
+  - SpawnNive8
+  - SpawnFinal
   layers:
   - Default
   - TransparentFX
