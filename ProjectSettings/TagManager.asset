@@ -9,6 +9,24 @@ TagManager:
   - SpawnNivel2
   - nivel2
   - nivel1
+  - SpawnNivel1
+  - nivel3
+  - SpawnNivel3
+  - SpawnNivel2_3
+  - nivel2.2
+  - SpawnNivel2.2
+  - nivel4
+  - SpawnNivel3.4
+  - nivel3.4
+  - SpawnNivel4
+  - nivel5
+  - SpawnNivel3.5
+  - SpawnNivel5
+  - nivel3.5
+  - SpawnNivel6
+  - nivel5.6
+  - nivel6
+  - SpawnNivel5.6
   layers:
   - Default
   - TransparentFX
