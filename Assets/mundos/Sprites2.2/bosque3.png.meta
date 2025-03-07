@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 8d592e924f55625438923580fad38531
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3530939812491765678
+    second: bosque3_0
+  - first:
+      213: 3693501516197230847
+    second: bosque3_1
+  - first:
+      213: -4940607116245539962
+    second: bosque3_2
+  - first:
+      213: -6310905434434780245
+    second: bosque3_3
+  - first:
+      213: 2899755857582667979
+    second: bosque3_4
+  - first:
+      213: 2663385597131205537
+    second: bosque3_5
+  - first:
+      213: -2652846959065246115
+    second: bosque3_6
+  - first:
+      213: 5809830696195534235
+    second: bosque3_7
+  - first:
+      213: -7327470189983293144
+    second: bosque3_8
+  - first:
+      213: 3394493266869533256
+    second: bosque3_9
+  - first:
+      213: 7689943149527480048
+    second: bosque3_10
+  - first:
+      213: 3375723106142442295
+    second: bosque3_11
+  - first:
+      213: -7823455151529119847
+    second: bosque3_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bosque3_0
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1347
+        width: 38
+        height: 50
+      alignment: 9
+      pivot: {x: 0.48436698, y: 0.25052246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258d421c2f49ffec0800000000000000
+      internalID: -3530939812491765678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque3_1
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1379
+        width: 38
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5332385, y: 0.2726367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff87d4a5f04f14330800000000000000
+      internalID: 3693501516197230847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque3_2
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1315
+        width: 38
+        height: 50
+      alignment: 9
+      pivot: {x: 0.49999678, y: 0.2726367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683ea6511007f6bb0800000000000000
+      internalID: -4940607116245539962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque3_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1183
+        width: 97
+        height: 108
+      alignment: 9
+      pivot: {x: 0.33071506, y: 0.23100111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3ce69a1f82b68a0800000000000000
+      internalID: -6310905434434780245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque3_4
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1119
+        width: 158
+        height: 92
+      alignment: 9
+      pivot: {x: 0.4840111, y: 0.22540814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8b292c6900e3820800000000000000
+      internalID: 2899755857582667979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque3_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1023
+        width: 54
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5233909, y: 0.17158692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aba5e0e61f36f420800000000000000
+      internalID: 2663385597131205537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque3_6
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1059
+        width: 38
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4999984, y: 0.29790038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56d0710fb13f2bd0800000000000000
+      internalID: -2652846959065246115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque3_7
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 735
+        width: 124
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5101865, y: 0.20599681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d25e38c3aa0a050800000000000000
+      internalID: 5809830696195534235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque3_8
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 671
+        width: 124
+        height: 162
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18811713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82128cf4fa89f4a90800000000000000
+      internalID: -7327470189983293144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque3_9
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 675
+        width: 38
+        height: 50
+      alignment: 9
+      pivot: {x: 0.56648016, y: 0.27263916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ab63434a9ab1f20800000000000000
+      internalID: 3394493266869533256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque3_10
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 479
+        width: 122
+        height: 194
+      alignment: 9
+      pivot: {x: 0.51035345, y: 0.174452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6b88a2d8a28ba60800000000000000
+      internalID: 7689943149527480048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque3_11
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 449
+        width: 154
+        height: 170
+      alignment: 9
+      pivot: {x: 0.42618075, y: 0.18793371}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733d2b9974af8de20800000000000000
+      internalID: 3375723106142442295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque3_12
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 63
+        width: 66
+        height: 122
+      alignment: 9
+      pivot: {x: 0.54871345, y: 0.16398846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f28e87df08d6390800000000000000
+      internalID: -7823455151529119847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3c7f79e6d6a708c4eaac7fad6c6fff36
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bosque3_0: -3530939812491765678
+      bosque3_1: 3693501516197230847
+      bosque3_10: 7689943149527480048
+      bosque3_11: 3375723106142442295
+      bosque3_12: -7823455151529119847
+      bosque3_2: -4940607116245539962
+      bosque3_3: -6310905434434780245
+      bosque3_4: 2899755857582667979
+      bosque3_5: 2663385597131205537
+      bosque3_6: -2652846959065246115
+      bosque3_7: 5809830696195534235
+      bosque3_8: -7327470189983293144
+      bosque3_9: 3394493266869533256
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

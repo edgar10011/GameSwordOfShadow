@@ -1,0 +1,4914 @@
+fileFormatVersion: 2
+guid: b23dd15378930aa46a67660d68065556
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5961363126339311106
+    second: bosque1_0
+  - first:
+      213: -3767097392429090574
+    second: bosque1_1
+  - first:
+      213: 6650001410028505745
+    second: bosque1_2
+  - first:
+      213: -4308015022046208573
+    second: bosque1_3
+  - first:
+      213: 9183716829784134283
+    second: bosque1_4
+  - first:
+      213: -5215321590620697126
+    second: bosque1_5
+  - first:
+      213: -6985286439751187283
+    second: bosque1_6
+  - first:
+      213: 6794234601326314713
+    second: bosque1_7
+  - first:
+      213: 281850145892182292
+    second: bosque1_8
+  - first:
+      213: -8358758119205842807
+    second: bosque1_9
+  - first:
+      213: -420055349855294235
+    second: bosque1_10
+  - first:
+      213: 9204038326777711396
+    second: bosque1_11
+  - first:
+      213: -5230737563995931109
+    second: bosque1_12
+  - first:
+      213: 4250052135256515834
+    second: bosque1_13
+  - first:
+      213: -8125448062862332984
+    second: bosque1_14
+  - first:
+      213: -5044921431193785115
+    second: bosque1_15
+  - first:
+      213: -9163681767839469043
+    second: bosque1_16
+  - first:
+      213: -7264633933592939852
+    second: bosque1_17
+  - first:
+      213: 4599870189601351080
+    second: bosque1_18
+  - first:
+      213: -1019581280556818161
+    second: bosque1_19
+  - first:
+      213: -4471394834505738623
+    second: bosque1_20
+  - first:
+      213: 7570849621987900485
+    second: bosque1_21
+  - first:
+      213: -8136700063951025145
+    second: bosque1_22
+  - first:
+      213: 8525861391845801361
+    second: bosque1_23
+  - first:
+      213: 7296892202435935321
+    second: bosque1_24
+  - first:
+      213: -4950748464648722672
+    second: bosque1_25
+  - first:
+      213: 5955347095257602090
+    second: bosque1_26
+  - first:
+      213: -2219410630696694158
+    second: bosque1_27
+  - first:
+      213: 5905347482657399147
+    second: bosque1_28
+  - first:
+      213: 7557682931349569635
+    second: bosque1_29
+  - first:
+      213: -7886948391933330751
+    second: bosque1_30
+  - first:
+      213: -359645627772108303
+    second: bosque1_31
+  - first:
+      213: 8431527196161372130
+    second: bosque1_32
+  - first:
+      213: 5400425738639515343
+    second: bosque1_33
+  - first:
+      213: -764888652304768692
+    second: bosque1_34
+  - first:
+      213: 7344908010397455761
+    second: bosque1_35
+  - first:
+      213: 7903272185941627636
+    second: bosque1_36
+  - first:
+      213: -4582303908581728231
+    second: bosque1_37
+  - first:
+      213: -8390490120761634108
+    second: bosque1_38
+  - first:
+      213: -4679645640407668572
+    second: bosque1_39
+  - first:
+      213: -2574975129876878903
+    second: bosque1_40
+  - first:
+      213: -2009563907861153764
+    second: bosque1_41
+  - first:
+      213: -181931008665427795
+    second: bosque1_42
+  - first:
+      213: 3095150924319705344
+    second: bosque1_43
+  - first:
+      213: -4319932579713622853
+    second: bosque1_44
+  - first:
+      213: -22245385774380023
+    second: bosque1_45
+  - first:
+      213: 5415492699608306860
+    second: bosque1_46
+  - first:
+      213: -5900808583769202915
+    second: bosque1_47
+  - first:
+      213: 7546128693596168250
+    second: bosque1_48
+  - first:
+      213: -2797940665933768404
+    second: bosque1_49
+  - first:
+      213: -5486635300333739606
+    second: bosque1_50
+  - first:
+      213: -574500976518041720
+    second: bosque1_51
+  - first:
+      213: -7501305196385476975
+    second: bosque1_52
+  - first:
+      213: -833201854265582949
+    second: bosque1_53
+  - first:
+      213: 3811472170280689943
+    second: bosque1_54
+  - first:
+      213: 7907397355909643302
+    second: bosque1_55
+  - first:
+      213: -5273855156370088704
+    second: bosque1_56
+  - first:
+      213: -6815611801733103887
+    second: bosque1_57
+  - first:
+      213: -4849498707632760613
+    second: bosque1_58
+  - first:
+      213: -1331623944626397380
+    second: bosque1_59
+  - first:
+      213: 5972865910881011751
+    second: bosque1_60
+  - first:
+      213: 5265992778199497909
+    second: bosque1_61
+  - first:
+      213: -7190136136814125116
+    second: bosque1_62
+  - first:
+      213: -3748977073440602940
+    second: bosque1_63
+  - first:
+      213: -8937347035637551198
+    second: bosque1_64
+  - first:
+      213: 5448821195527369299
+    second: bosque1_65
+  - first:
+      213: 1717873694631264685
+    second: bosque1_66
+  - first:
+      213: 3197260089264599969
+    second: bosque1_67
+  - first:
+      213: -5531827947989500227
+    second: bosque1_68
+  - first:
+      213: 2932578696152282440
+    second: bosque1_69
+  - first:
+      213: -5887283023929929336
+    second: bosque1_70
+  - first:
+      213: -2380889957434990968
+    second: bosque1_71
+  - first:
+      213: 8870841899038154364
+    second: bosque1_72
+  - first:
+      213: 8541388413495323525
+    second: bosque1_73
+  - first:
+      213: 6562610957232173352
+    second: bosque1_74
+  - first:
+      213: -7196205288871126919
+    second: bosque1_75
+  - first:
+      213: -3093774943921604963
+    second: bosque1_76
+  - first:
+      213: -5592486437243134985
+    second: bosque1_77
+  - first:
+      213: -1558453992457690458
+    second: bosque1_78
+  - first:
+      213: 3651190729573558466
+    second: bosque1_79
+  - first:
+      213: 2921464748499402998
+    second: bosque1_80
+  - first:
+      213: -7243966710081399001
+    second: bosque1_81
+  - first:
+      213: -7725033482538001342
+    second: bosque1_82
+  - first:
+      213: 8057372525953618782
+    second: bosque1_83
+  - first:
+      213: -2198169591236119060
+    second: bosque1_84
+  - first:
+      213: 3495427553863703452
+    second: bosque1_85
+  - first:
+      213: 1228829889959244661
+    second: bosque1_86
+  - first:
+      213: -116169995462294352
+    second: bosque1_87
+  - first:
+      213: -4733050296966261941
+    second: bosque1_88
+  - first:
+      213: 2958690150478108835
+    second: bosque1_89
+  - first:
+      213: -8998625975024682036
+    second: bosque1_90
+  - first:
+      213: -1659490662018791748
+    second: bosque1_91
+  - first:
+      213: -5394052463667631976
+    second: bosque1_92
+  - first:
+      213: 3158831299774281275
+    second: bosque1_93
+  - first:
+      213: -8771729128344548964
+    second: bosque1_94
+  - first:
+      213: -5311908059101197565
+    second: bosque1_95
+  - first:
+      213: -2962102412189198445
+    second: bosque1_96
+  - first:
+      213: 3527129560622376714
+    second: bosque1_97
+  - first:
+      213: 7308484192230917330
+    second: bosque1_98
+  - first:
+      213: 3153322629051157749
+    second: bosque1_99
+  - first:
+      213: 611316264395175649
+    second: bosque1_100
+  - first:
+      213: -2089946329043755395
+    second: bosque1_101
+  - first:
+      213: -4077705395812667985
+    second: bosque1_102
+  - first:
+      213: -3769730807017487627
+    second: bosque1_103
+  - first:
+      213: -544858771474344101
+    second: bosque1_104
+  - first:
+      213: -1860526297799438545
+    second: bosque1_105
+  - first:
+      213: -1928305546896372163
+    second: bosque1_106
+  - first:
+      213: 1433299154601690533
+    second: bosque1_107
+  - first:
+      213: 3151551031997475993
+    second: bosque1_108
+  - first:
+      213: 9046670413528826812
+    second: bosque1_109
+  - first:
+      213: 5112783240073007686
+    second: bosque1_110
+  - first:
+      213: -284972867243400250
+    second: bosque1_111
+  - first:
+      213: 2212803128103712813
+    second: bosque1_112
+  - first:
+      213: -6099498754882476121
+    second: bosque1_113
+  - first:
+      213: -4889758163265766054
+    second: bosque1_114
+  - first:
+      213: -1148851157534406453
+    second: bosque1_115
+  - first:
+      213: 8180339893262431771
+    second: bosque1_116
+  - first:
+      213: 7693140276530240969
+    second: bosque1_117
+  - first:
+      213: -5022164648943730061
+    second: bosque1_118
+  - first:
+      213: -2480778839667371985
+    second: bosque1_119
+  - first:
+      213: 283862823238956627
+    second: bosque1_120
+  - first:
+      213: 2057397427012455913
+    second: bosque1_121
+  - first:
+      213: 455905953675354106
+    second: bosque1_122
+  - first:
+      213: 6871830060978561174
+    second: bosque1_123
+  - first:
+      213: 2705542663043526668
+    second: bosque1_124
+  - first:
+      213: -414707300031822819
+    second: bosque1_125
+  - first:
+      213: -2379927588184040538
+    second: bosque1_126
+  - first:
+      213: 4971487702143058417
+    second: bosque1_127
+  - first:
+      213: 5170426851456970909
+    second: bosque1_128
+  - first:
+      213: -2754819278969015738
+    second: bosque1_129
+  - first:
+      213: -5019179053913498451
+    second: bosque1_130
+  - first:
+      213: 178211942084793544
+    second: bosque1_131
+  - first:
+      213: -7928893127474859884
+    second: bosque1_132
+  - first:
+      213: -5383445628518898585
+    second: bosque1_133
+  - first:
+      213: -8137108977024202082
+    second: bosque1_134
+  - first:
+      213: -228059542068300561
+    second: bosque1_135
+  - first:
+      213: -7695647158003561539
+    second: bosque1_136
+  - first:
+      213: -5139842726160473886
+    second: bosque1_137
+  - first:
+      213: 736368099666700480
+    second: bosque1_138
+  - first:
+      213: -4868333110746192086
+    second: bosque1_139
+  - first:
+      213: 4668142554223960666
+    second: bosque1_140
+  - first:
+      213: 7079194073961974690
+    second: bosque1_141
+  - first:
+      213: -7663829934586356895
+    second: bosque1_142
+  - first:
+      213: 3160639899047404503
+    second: bosque1_143
+  - first:
+      213: 1711181115038460057
+    second: bosque1_144
+  - first:
+      213: 6449595270637283043
+    second: bosque1_145
+  - first:
+      213: 7977397428372884677
+    second: bosque1_146
+  - first:
+      213: -8848685007781393772
+    second: bosque1_147
+  - first:
+      213: -7507915774881345825
+    second: bosque1_148
+  - first:
+      213: 2146857013358708379
+    second: bosque1_149
+  - first:
+      213: 9161855617739059317
+    second: bosque1_150
+  - first:
+      213: 9111702295587760741
+    second: bosque1_151
+  - first:
+      213: -5707849743357170732
+    second: bosque1_152
+  - first:
+      213: -5869501517951325011
+    second: bosque1_153
+  - first:
+      213: -3127441658441142237
+    second: bosque1_154
+  - first:
+      213: -579093316137906531
+    second: bosque1_155
+  - first:
+      213: 1224435923908013912
+    second: bosque1_156
+  - first:
+      213: -3627033297304525892
+    second: bosque1_157
+  - first:
+      213: 4063683155898007258
+    second: bosque1_158
+  - first:
+      213: -1945482312955866012
+    second: bosque1_159
+  - first:
+      213: 7988872429031268512
+    second: bosque1_160
+  - first:
+      213: 5880776410477847620
+    second: bosque1_161
+  - first:
+      213: -4896032300277029556
+    second: bosque1_162
+  - first:
+      213: 2575032391188677570
+    second: bosque1_163
+  - first:
+      213: -4829691254668255363
+    second: bosque1_164
+  - first:
+      213: 2346727524817269627
+    second: bosque1_165
+  - first:
+      213: 3672498298041212352
+    second: bosque1_166
+  - first:
+      213: 3168062735026574048
+    second: bosque1_167
+  - first:
+      213: 3529410439849906283
+    second: bosque1_168
+  - first:
+      213: 6452371003392881606
+    second: bosque1_169
+  - first:
+      213: -3485112445530129366
+    second: bosque1_170
+  - first:
+      213: -3573589050056242362
+    second: bosque1_171
+  - first:
+      213: -534669864911971192
+    second: bosque1_172
+  - first:
+      213: -3132266145007611147
+    second: bosque1_173
+  - first:
+      213: 8753167910010547516
+    second: bosque1_174
+  - first:
+      213: 7132160465246588179
+    second: bosque1_175
+  - first:
+      213: 9053663596069393051
+    second: bosque1_176
+  - first:
+      213: 3203355366770248830
+    second: bosque1_177
+  - first:
+      213: -3883523525572971996
+    second: bosque1_178
+  - first:
+      213: 1855917726646666548
+    second: bosque1_179
+  - first:
+      213: 2089745282814017694
+    second: bosque1_180
+  - first:
+      213: 2678548996223600251
+    second: bosque1_181
+  - first:
+      213: -7486829083786264247
+    second: bosque1_182
+  - first:
+      213: -614909512348712645
+    second: bosque1_183
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bosque1_0
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1343
+        width: 54
+        height: 50
+      alignment: 9
+      pivot: {x: 0.52199864, y: 0.298042}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9ee6d32dbf44da0800000000000000
+      internalID: -5961363126339311106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_1
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1311
+        width: 54
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5659982, y: 0.20300293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8b6f961e498bbc0800000000000000
+      internalID: -3767097392429090574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_2
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 1311
+        width: 54
+        height: 50
+      alignment: 9
+      pivot: {x: 0.49999774, y: 0.19629395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a88989c0d894c50800000000000000
+      internalID: 6650001410028505745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_3
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1347
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd93eb892bd634c0800000000000000
+      internalID: -4308015022046208573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_4
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1313
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b825f0d9ccd137f70800000000000000
+      internalID: 9183716829784134283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_5
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1321
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addc0a135a47f97b0800000000000000
+      internalID: -5215321590620697126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_6
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1330
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da407402ef64f0f90800000000000000
+      internalID: -6985286439751187283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_7
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1316
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d409bc5f58f94e50800000000000000
+      internalID: 6794234601326314713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_8
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1285
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419abc1e63559e300800000000000000
+      internalID: 281850145892182292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_9
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1219
+        width: 38
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5156306, y: 0.26240236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980d255f6c9bffb80800000000000000
+      internalID: -8358758119205842807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_10
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1251
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec6fd582e9ab2af0800000000000000
+      internalID: -420055349855294235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_11
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1265
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b8aa6d7105bbf70800000000000000
+      internalID: 9204038326777711396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_12
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1249
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1efab036efa867b0800000000000000
+      internalID: -5230737563995931109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_13
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1253
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4ead636e73bfa30800000000000000
+      internalID: 4250052135256515834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_14
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1215
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.49999872, y: 0.2730446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb643c890c9c3f80800000000000000
+      internalID: -8125448062862332984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_15
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1151
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec60fdffa6dcf9b0800000000000000
+      internalID: -5044921431193785115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_16
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1153
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d027431cbff04d080800000000000000
+      internalID: -9163681767839469043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1137
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2b1f45de5de2b90800000000000000
+      internalID: -7264633933592939852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1125
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5e818f09506df30800000000000000
+      internalID: 4599870189601351080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_19
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1097
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01e5c03a38b9d1f0800000000000000
+      internalID: -1019581280556818161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_20
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1106
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186d4c6a61a62f1c0800000000000000
+      internalID: -4471394834505738623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_21
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1092
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c3d7e7e9f011960800000000000000
+      internalID: 7570849621987900485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_22
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1105
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c0d44e662a41f80800000000000000
+      internalID: -8136700063951025145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_23
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1093
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dbf2193c1f15670800000000000000
+      internalID: 8525861391845801361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_24
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1093
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cf28a2cc4c34560800000000000000
+      internalID: 7296892202435935321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_25
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1073
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0176d4860886b4bb0800000000000000
+      internalID: -4950748464648722672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_26
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1057
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28dbfe51a4a5a250800000000000000
+      internalID: 5955347095257602090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_27
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1061
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e09925ac11331e0800000000000000
+      internalID: -2219410630696694158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_28
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1025
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61aa036f3204f150800000000000000
+      internalID: 5905347482657399147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_29
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 993
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360cf10759842e860800000000000000
+      internalID: 7557682931349569635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_30
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 965
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cab9f0793eeb8290800000000000000
+      internalID: -7886948391933330751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_31
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 977
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f10f9ff438420bf0800000000000000
+      internalID: -359645627772108303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_32
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 961
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef6e31105dc20570800000000000000
+      internalID: 8431527196161372130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_33
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 965
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce1c7bb89a22fa40800000000000000
+      internalID: 5400425738639515343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_34
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 895
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41a5a2c2d19265f0800000000000000
+      internalID: -764888652304768692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_35
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 913
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19559a3abea5ee560800000000000000
+      internalID: 7344908010397455761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_36
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 901
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f296460e201ead60800000000000000
+      internalID: 7903272185941627636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_37
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 873
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9102a1c8fd26860c0800000000000000
+      internalID: -4582303908581728231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_38
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 882
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2149c90bdfe8b80800000000000000
+      internalID: -8390490120761634108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_39
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 868
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8abc8751f8e0fb0800000000000000
+      internalID: -4679645640407668572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_40
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 863
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9293e13c9d34cd0800000000000000
+      internalID: -2574975129876878903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_41
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 849
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c187d7ed5489c14e0800000000000000
+      internalID: -2009563907861153764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_42
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 849
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da06ed626b6a97df0800000000000000
+      internalID: -181931008665427795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_43
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 837
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0094c4aed5f24fa20800000000000000
+      internalID: 3095150924319705344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_44
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 837
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc588ce4348c04c0800000000000000
+      internalID: -4319932579713622853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_45
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 805
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cc60380f7f0bff0800000000000000
+      internalID: -22245385774380023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_46
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 817
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4dfd3fae1b72b40800000000000000
+      internalID: 5415492699608306860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_47
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 817
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f5cdc5bdd1c1ea0800000000000000
+      internalID: -5900808583769202915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_48
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 801
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30ae23d01c39b860800000000000000
+      internalID: 7546128693596168250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_49
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 805
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29d568d9c7bb29d0800000000000000
+      internalID: -2797940665933768404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_50
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 805
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa12d77834e8bd3b0800000000000000
+      internalID: -5486635300333739606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_51
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 785
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fe68bd766f608f0800000000000000
+      internalID: -574500976518041720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_52
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 773
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ed6a1eaa206e790800000000000000
+      internalID: -7501305196385476975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_53
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 711
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a9d4af35fdf64f0800000000000000
+      internalID: -833201854265582949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_54
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 689
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7112edcaeb115e430800000000000000
+      internalID: 3811472170280689943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_55
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 671
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c7bd00008bcbd60800000000000000
+      internalID: 7907397355909643302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_56
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 677
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00dd2b76da08fc6b0800000000000000
+      internalID: -5273855156370088704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_57
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 657
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fefcbe4d251a61a0800000000000000
+      internalID: -6815611801733103887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_58
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 645
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd855d08e9e13bcb0800000000000000
+      internalID: -4849498707632760613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_59
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 645
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f932ed31f158de0800000000000000
+      internalID: -1331623944626397380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_60
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 617
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7284a1d76e1e3e250800000000000000
+      internalID: 5972865910881011751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_61
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 626
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc7a560880941940800000000000000
+      internalID: 5265992778199497909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_62
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 612
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf9e7e4741873c90800000000000000
+      internalID: -7190136136814125116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_63
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 613
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c44d72f635f8fbc0800000000000000
+      internalID: -3748977073440602940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_64
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 607
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afee62293a28f380800000000000000
+      internalID: -8937347035637551198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_65
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 577
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352370c120a1e9b40800000000000000
+      internalID: 5448821195527369299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_66
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 577
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da10c79060d17d710800000000000000
+      internalID: 1717873694631264685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_67
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 593
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a376238c13fe5c20800000000000000
+      internalID: 3197260089264599969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_68
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 581
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbef1894acffa33b0800000000000000
+      internalID: -5531827947989500227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_69
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 545
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845f80469cc92b820800000000000000
+      internalID: 2932578696152282440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_70
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 561
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881187a284b2c4ea0800000000000000
+      internalID: -5887283023929929336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_71
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 549
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88edacdb23165fed0800000000000000
+      internalID: -2380889957434990968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_72
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 519
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e12da15bf8b1b70800000000000000
+      internalID: 8870841899038154364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_73
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 453
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ba603028b198670800000000000000
+      internalID: 8541388413495323525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_74
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 433
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821f8e835e3131b50800000000000000
+      internalID: 6562610957232173352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_75
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 421
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9789c0aba61f12c90800000000000000
+      internalID: -7196205288871126919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_76
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 421
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d967c8c7414b015d0800000000000000
+      internalID: -3093774943921604963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_77
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 401
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbdee0373f7362b0800000000000000
+      internalID: -5592486437243134985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_78
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 355
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a225c4d9524f5ae0800000000000000
+      internalID: -1558453992457690458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_79
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 389
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c86e6baf92aba230800000000000000
+      internalID: 3651190729573558466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_80
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 389
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0022ec5b02b8820800000000000000
+      internalID: 2921464748499402998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_81
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 369
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727d7d848a2487b90800000000000000
+      internalID: -7243966710081399001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_82
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 353
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cd2530afa2bc490800000000000000
+      internalID: -7725033482538001342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_83
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 369
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5315706f9981df60800000000000000
+      internalID: 8057372525953618782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_84
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 361
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce53e4637688e71e0800000000000000
+      internalID: -2198169591236119060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_85
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 370
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b982637d0428030800000000000000
+      internalID: 3495427553863703452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_86
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 356
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5733768364ead0110800000000000000
+      internalID: 1228829889959244661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_87
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 357
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b449ee2108436ef0800000000000000
+      internalID: -116169995462294352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_88
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 357
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43d449e4d3d05eb0800000000000000
+      internalID: -4733050296966261941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_89
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 287
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8d1bb14016f0920800000000000000
+      internalID: 2958690150478108835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_90
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 295
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbfc0c3a557e1380800000000000000
+      internalID: -8998625975024682036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_91
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 293
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6ca46090e48f8e0800000000000000
+      internalID: -1659490662018791748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_92
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 261
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898254bfcd97425b0800000000000000
+      internalID: -5394052463667631976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_93
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 259
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b367e68b45c66db20800000000000000
+      internalID: 3158831299774281275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_94
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 259
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99831715de844680800000000000000
+      internalID: -8771729128344548964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_95
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 264
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b0db193cf4846b0800000000000000
+      internalID: -5311908059101197565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_96
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 273
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397922dcc8f74e6d0800000000000000
+      internalID: -2962102412189198445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_97
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 261
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a072da9d5a1e2f030800000000000000
+      internalID: 3527129560622376714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_98
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 241
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d44b7c96a3fc6560800000000000000
+      internalID: 7308484192230917330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_99
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 225
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc8bce593ad2cb20800000000000000
+      internalID: 3153322629051157749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_100
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 233
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e671b057e4db7800800000000000000
+      internalID: 611316264395175649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_101
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 242
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e17b103e40ff2e0800000000000000
+      internalID: -2089946329043755395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_102
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 227
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad64ef0c841967c0800000000000000
+      internalID: -4077705395812667985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_103
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 225
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f240eccdc93fabc0800000000000000
+      internalID: -3769730807017487627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_104
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 245
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57148985d54078f0800000000000000
+      internalID: -544858771474344101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_105
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 229
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f446c80351e26e0800000000000000
+      internalID: -1860526297799438545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_106
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 228
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e83da52584d35e0800000000000000
+      internalID: -1928305546896372163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_107
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 227
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5c6e6bcf914e310800000000000000
+      internalID: 1433299154601690533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_108
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 193
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ca9b947fe8cbb20800000000000000
+      internalID: 3151551031997475993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_109
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 213
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb30c6e4fca3c8d70800000000000000
+      internalID: 9046670413528826812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_110
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 209
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6425f16a44144f640800000000000000
+      internalID: 5112783240073007686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_111
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 195
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c32555efa29b0cf0800000000000000
+      internalID: -284972867243400250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_112
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 197
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28be7898b475be10800000000000000
+      internalID: 2212803128103712813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_113
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 161
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7ea4fe23a3a5ba0800000000000000
+      internalID: -6099498754882476121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_114
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 181
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d3af88bd6142cb0800000000000000
+      internalID: -4889758163265766054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_115
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 177
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc88d5785f57e00f0800000000000000
+      internalID: -1148851157534406453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_116
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 165
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b163dd7aac7668170800000000000000
+      internalID: 8180339893262431771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_117
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 161
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdd5dd425683ca60800000000000000
+      internalID: 7693140276530240969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_118
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 169
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3724f204cdfad4ab0800000000000000
+      internalID: -5022164648943730061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_119
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 178
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20125ff9c0829dd0800000000000000
+      internalID: -2480778839667371985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_120
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 163
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356f818dbbb70f300800000000000000
+      internalID: 283862823238956627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_121
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 165
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed41ee2f085d8c10800000000000000
+      internalID: 2057397427012455913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_122
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 164
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff1ec3ac04b35600800000000000000
+      internalID: 455905953675354106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_123
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 129
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6906a7d2805ad5f50800000000000000
+      internalID: 6871830060978561174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_124
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 149
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00bf5ba7b40c8520800000000000000
+      internalID: 2705542663043526668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_125
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 145
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1487d768e9ae3af0800000000000000
+      internalID: -414707300031822819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_126
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 129
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab532bc77cc8fed0800000000000000
+      internalID: -2379927588184040538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_127
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 149
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1c57b99b54ef440800000000000000
+      internalID: 4971487702143058417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_128
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 145
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90fb3ac3db01c740800000000000000
+      internalID: 5170426851456970909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_129
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 145
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64277a0267ae4c9d0800000000000000
+      internalID: -2754819278969015738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_130
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 133
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac97634e3b485ab0800000000000000
+      internalID: -5019179053913498451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_131
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 145
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c452be21d2297200800000000000000
+      internalID: 178211942084793544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_132
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 131
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49033daa5b9e6f190800000000000000
+      internalID: -7928893127474859884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_133
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 133
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764608c39b82a45b0800000000000000
+      internalID: -5383445628518898585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_134
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 131
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a84d56f7e231f80800000000000000
+      internalID: -8137108977024202082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_135
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 133
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe471670e05c5dcf0800000000000000
+      internalID: -228059542068300561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_136
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 133
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb047edea1933590800000000000000
+      internalID: -7695647158003561539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_137
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 133
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e064d9c54c9ba8b0800000000000000
+      internalID: -5139842726160473886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_138
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 105
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8209c92ea183a00800000000000000
+      internalID: 736368099666700480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_139
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 114
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2763bd44d4307cb0800000000000000
+      internalID: -4868333110746192086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_140
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 100
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5267619be298c040800000000000000
+      internalID: 4668142554223960666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_141
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 105
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abcd8ac0895e3260800000000000000
+      internalID: 7079194073961974690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_142
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 114
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b99f9774b94a590800000000000000
+      internalID: -7663829934586356895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_143
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 100
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3a5ad0e39dcdb20800000000000000
+      internalID: 3160639899047404503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_144
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 63
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998693c68265fb710800000000000000
+      internalID: 1711181115038460057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_145
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 81
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6ef5b2ab0918950800000000000000
+      internalID: 6449595270637283043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_146
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 69
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccc74ee1b865be60800000000000000
+      internalID: 7977397428372884677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_147
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 63
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a8dd52ed7233580800000000000000
+      internalID: -8848685007781393772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_148
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 81
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde45a2a1668ec790800000000000000
+      internalID: -7507915774881345825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_149
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 69
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b964dc0441b2bcd10800000000000000
+      internalID: 2146857013358708379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_150
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 71
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570f0ca8423752f70800000000000000
+      internalID: 9161855617739059317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_151
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 81
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56aae9346f4437e70800000000000000
+      internalID: 9111702295587760741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_152
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 65
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db24ef56e4a9c0b0800000000000000
+      internalID: -5707849743357170732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_153
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 85
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac25e5a7775b8ea0800000000000000
+      internalID: -5869501517951325011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_154
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 69
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3207bdca1681994d0800000000000000
+      internalID: -3127441658441142237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_155
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 69
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e0cc772b5a6f7f0800000000000000
+      internalID: -579093316137906531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_156
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 69
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fa3c64cf11ef010800000000000000
+      internalID: 1224435923908013912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_157
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 69
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb366a5de603aadc0800000000000000
+      internalID: -3627033297304525892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_158
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 67
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adef90bcc4a156830800000000000000
+      internalID: 4063683155898007258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_159
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 49
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464d57bd4224005e0800000000000000
+      internalID: -1945482312955866012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_160
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 49
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a02258b52d2ede60800000000000000
+      internalID: 7988872429031268512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_161
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 49
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4446706dcf6bc9150800000000000000
+      internalID: 5880776410477847620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_162
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 37
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45262d209ccd0cb0800000000000000
+      internalID: -4896032300277029556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_163
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 37
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c30de1115a5cb320800000000000000
+      internalID: 2575032391188677570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_164
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 37
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f10b6846d79fcb0800000000000000
+      internalID: -4829691254668255363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_165
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 9
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b737d551040419020800000000000000
+      internalID: 2346727524817269627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_166
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 18
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd19fc8eb557f230800000000000000
+      internalID: 3672498298041212352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_167
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2596bb54837fb20800000000000000
+      internalID: 3168062735026574048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_168
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 21
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b601fcd681cfaf030800000000000000
+      internalID: 3529410439849906283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_169
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 17
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c37340dd3d6b8950800000000000000
+      internalID: 6452371003392881606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_170
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 17
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c32e912b462afc0800000000000000
+      internalID: -3485112445530129366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_171
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 17
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b0c2251bf086ec0800000000000000
+      internalID: -3573589050056242362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_172
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 1
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cd0d537987498f0800000000000000
+      internalID: -534669864911971192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_173
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 5
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2d6dc5984f784d0800000000000000
+      internalID: -3132266145007611147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_174
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 17
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3de68f76df797970800000000000000
+      internalID: 8753167910010547516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_175
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 8
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d8b14c7268af260800000000000000
+      internalID: 7132160465246588179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_176
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 17
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b921a9f721315ad70800000000000000
+      internalID: 9053663596069393051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_177
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 4
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c8ea5ebba947c20800000000000000
+      internalID: 3203355366770248830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_178
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 3
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422b955ede3fa1ac0800000000000000
+      internalID: -3883523525572971996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_179
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435002dd65b81c910800000000000000
+      internalID: 1855917726646666548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_180
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e908d254344400d10800000000000000
+      internalID: 2089745282814017694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_181
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b760369de1e1c2520800000000000000
+      internalID: 2678548996223600251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_182
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9414bde7d90791890800000000000000
+      internalID: -7486829083786264247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bosque1_183
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3142737e076777f0800000000000000
+      internalID: -614909512348712645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e3aa3782c054d0c4dbd7a1cb899f04be
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bosque1_0: -5961363126339311106
+      bosque1_1: -3767097392429090574
+      bosque1_10: -420055349855294235
+      bosque1_100: 611316264395175649
+      bosque1_101: -2089946329043755395
+      bosque1_102: -4077705395812667985
+      bosque1_103: -3769730807017487627
+      bosque1_104: -544858771474344101
+      bosque1_105: -1860526297799438545
+      bosque1_106: -1928305546896372163
+      bosque1_107: 1433299154601690533
+      bosque1_108: 3151551031997475993
+      bosque1_109: 9046670413528826812
+      bosque1_11: 9204038326777711396
+      bosque1_110: 5112783240073007686
+      bosque1_111: -284972867243400250
+      bosque1_112: 2212803128103712813
+      bosque1_113: -6099498754882476121
+      bosque1_114: -4889758163265766054
+      bosque1_115: -1148851157534406453
+      bosque1_116: 8180339893262431771
+      bosque1_117: 7693140276530240969
+      bosque1_118: -5022164648943730061
+      bosque1_119: -2480778839667371985
+      bosque1_12: -5230737563995931109
+      bosque1_120: 283862823238956627
+      bosque1_121: 2057397427012455913
+      bosque1_122: 455905953675354106
+      bosque1_123: 6871830060978561174
+      bosque1_124: 2705542663043526668
+      bosque1_125: -414707300031822819
+      bosque1_126: -2379927588184040538
+      bosque1_127: 4971487702143058417
+      bosque1_128: 5170426851456970909
+      bosque1_129: -2754819278969015738
+      bosque1_13: 4250052135256515834
+      bosque1_130: -5019179053913498451
+      bosque1_131: 178211942084793544
+      bosque1_132: -7928893127474859884
+      bosque1_133: -5383445628518898585
+      bosque1_134: -8137108977024202082
+      bosque1_135: -228059542068300561
+      bosque1_136: -7695647158003561539
+      bosque1_137: -5139842726160473886
+      bosque1_138: 736368099666700480
+      bosque1_139: -4868333110746192086
+      bosque1_14: -8125448062862332984
+      bosque1_140: 4668142554223960666
+      bosque1_141: 7079194073961974690
+      bosque1_142: -7663829934586356895
+      bosque1_143: 3160639899047404503
+      bosque1_144: 1711181115038460057
+      bosque1_145: 6449595270637283043
+      bosque1_146: 7977397428372884677
+      bosque1_147: -8848685007781393772
+      bosque1_148: -7507915774881345825
+      bosque1_149: 2146857013358708379
+      bosque1_15: -5044921431193785115
+      bosque1_150: 9161855617739059317
+      bosque1_151: 9111702295587760741
+      bosque1_152: -5707849743357170732
+      bosque1_153: -5869501517951325011
+      bosque1_154: -3127441658441142237
+      bosque1_155: -579093316137906531
+      bosque1_156: 1224435923908013912
+      bosque1_157: -3627033297304525892
+      bosque1_158: 4063683155898007258
+      bosque1_159: -1945482312955866012
+      bosque1_16: -9163681767839469043
+      bosque1_160: 7988872429031268512
+      bosque1_161: 5880776410477847620
+      bosque1_162: -4896032300277029556
+      bosque1_163: 2575032391188677570
+      bosque1_164: -4829691254668255363
+      bosque1_165: 2346727524817269627
+      bosque1_166: 3672498298041212352
+      bosque1_167: 3168062735026574048
+      bosque1_168: 3529410439849906283
+      bosque1_169: 6452371003392881606
+      bosque1_17: -7264633933592939852
+      bosque1_170: -3485112445530129366
+      bosque1_171: -3573589050056242362
+      bosque1_172: -534669864911971192
+      bosque1_173: -3132266145007611147
+      bosque1_174: 8753167910010547516
+      bosque1_175: 7132160465246588179
+      bosque1_176: 9053663596069393051
+      bosque1_177: 3203355366770248830
+      bosque1_178: -3883523525572971996
+      bosque1_179: 1855917726646666548
+      bosque1_18: 4599870189601351080
+      bosque1_180: 2089745282814017694
+      bosque1_181: 2678548996223600251
+      bosque1_182: -7486829083786264247
+      bosque1_183: -614909512348712645
+      bosque1_19: -1019581280556818161
+      bosque1_2: 6650001410028505745
+      bosque1_20: -4471394834505738623
+      bosque1_21: 7570849621987900485
+      bosque1_22: -8136700063951025145
+      bosque1_23: 8525861391845801361
+      bosque1_24: 7296892202435935321
+      bosque1_25: -4950748464648722672
+      bosque1_26: 5955347095257602090
+      bosque1_27: -2219410630696694158
+      bosque1_28: 5905347482657399147
+      bosque1_29: 7557682931349569635
+      bosque1_3: -4308015022046208573
+      bosque1_30: -7886948391933330751
+      bosque1_31: -359645627772108303
+      bosque1_32: 8431527196161372130
+      bosque1_33: 5400425738639515343
+      bosque1_34: -764888652304768692
+      bosque1_35: 7344908010397455761
+      bosque1_36: 7903272185941627636
+      bosque1_37: -4582303908581728231
+      bosque1_38: -8390490120761634108
+      bosque1_39: -4679645640407668572
+      bosque1_4: 9183716829784134283
+      bosque1_40: -2574975129876878903
+      bosque1_41: -2009563907861153764
+      bosque1_42: -181931008665427795
+      bosque1_43: 3095150924319705344
+      bosque1_44: -4319932579713622853
+      bosque1_45: -22245385774380023
+      bosque1_46: 5415492699608306860
+      bosque1_47: -5900808583769202915
+      bosque1_48: 7546128693596168250
+      bosque1_49: -2797940665933768404
+      bosque1_5: -5215321590620697126
+      bosque1_50: -5486635300333739606
+      bosque1_51: -574500976518041720
+      bosque1_52: -7501305196385476975
+      bosque1_53: -833201854265582949
+      bosque1_54: 3811472170280689943
+      bosque1_55: 7907397355909643302
+      bosque1_56: -5273855156370088704
+      bosque1_57: -6815611801733103887
+      bosque1_58: -4849498707632760613
+      bosque1_59: -1331623944626397380
+      bosque1_6: -6985286439751187283
+      bosque1_60: 5972865910881011751
+      bosque1_61: 5265992778199497909
+      bosque1_62: -7190136136814125116
+      bosque1_63: -3748977073440602940
+      bosque1_64: -8937347035637551198
+      bosque1_65: 5448821195527369299
+      bosque1_66: 1717873694631264685
+      bosque1_67: 3197260089264599969
+      bosque1_68: -5531827947989500227
+      bosque1_69: 2932578696152282440
+      bosque1_7: 6794234601326314713
+      bosque1_70: -5887283023929929336
+      bosque1_71: -2380889957434990968
+      bosque1_72: 8870841899038154364
+      bosque1_73: 8541388413495323525
+      bosque1_74: 6562610957232173352
+      bosque1_75: -7196205288871126919
+      bosque1_76: -3093774943921604963
+      bosque1_77: -5592486437243134985
+      bosque1_78: -1558453992457690458
+      bosque1_79: 3651190729573558466
+      bosque1_8: 281850145892182292
+      bosque1_80: 2921464748499402998
+      bosque1_81: -7243966710081399001
+      bosque1_82: -7725033482538001342
+      bosque1_83: 8057372525953618782
+      bosque1_84: -2198169591236119060
+      bosque1_85: 3495427553863703452
+      bosque1_86: 1228829889959244661
+      bosque1_87: -116169995462294352
+      bosque1_88: -4733050296966261941
+      bosque1_89: 2958690150478108835
+      bosque1_9: -8358758119205842807
+      bosque1_90: -8998625975024682036
+      bosque1_91: -1659490662018791748
+      bosque1_92: -5394052463667631976
+      bosque1_93: 3158831299774281275
+      bosque1_94: -8771729128344548964
+      bosque1_95: -5311908059101197565
+      bosque1_96: -2962102412189198445
+      bosque1_97: 3527129560622376714
+      bosque1_98: 7308484192230917330
+      bosque1_99: 3153322629051157749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
