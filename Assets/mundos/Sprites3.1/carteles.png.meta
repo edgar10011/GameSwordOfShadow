@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 55d0a77634fbf914fad8410bf6926b5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -544371776081336
+    second: carteles_0
+  - first:
+      213: 66552991489010372
+    second: carteles_1
+  - first:
+      213: -6798032837855907957
+    second: carteles_2
+  - first:
+      213: 3667380920011565923
+    second: carteles_3
+  - first:
+      213: -322158712391386212
+    second: carteles_4
+  - first:
+      213: 1668397754424222491
+    second: carteles_5
+  - first:
+      213: -5279083385707074692
+    second: carteles_6
+  - first:
+      213: 5335258744144157778
+    second: carteles_7
+  - first:
+      213: 6881020674928829296
+    second: carteles_8
+  - first:
+      213: 6509663393023076733
+    second: carteles_9
+  - first:
+      213: 8220517537630657871
+    second: carteles_10
+  - first:
+      213: 6924346160816661251
+    second: carteles_11
+  - first:
+      213: 6642858999274960610
+    second: carteles_12
+  - first:
+      213: -5183379401431604469
+    second: carteles_13
+  - first:
+      213: 5682274201254980004
+    second: carteles_14
+  - first:
+      213: 5618636535487994549
+    second: carteles_15
+  - first:
+      213: 2466489074558670165
+    second: carteles_16
+  - first:
+      213: -6817359545384584010
+    second: carteles_17
+  - first:
+      213: -564408286575626090
+    second: carteles_18
+  - first:
+      213: -1552987720042321065
+    second: carteles_19
+  - first:
+      213: -5267310946921680747
+    second: carteles_20
+  - first:
+      213: 7853755886960929519
+    second: carteles_21
+  - first:
+      213: 5993562301837863101
+    second: carteles_22
+  - first:
+      213: 7373983360982899957
+    second: carteles_23
+  - first:
+      213: -6755646924159292520
+    second: carteles_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: carteles_0
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 991
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84239a195e01efff0800000000000000
+      internalID: -544371776081336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_1
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 991
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca2178d7917ce000800000000000000
+      internalID: 66552991489010372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_2
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 991
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f6828c62988a1a0800000000000000
+      internalID: -6798032837855907957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_3
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 991
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ba551248725e230800000000000000
+      internalID: 3667380920011565923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_4
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 994
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b3d92ab56778bf0800000000000000
+      internalID: -322158712391386212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_5
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 993
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13e3880be6572710800000000000000
+      internalID: 1668397754424222491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_6
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 991
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b634761adecb6b0800000000000000
+      internalID: -5279083385707074692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_7
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 991
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c52857f85aa0a40800000000000000
+      internalID: 5335258744144157778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_8
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 930
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073604db8db4e7f50800000000000000
+      internalID: 6881020674928829296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_9
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 930
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d792184cd58f65a50800000000000000
+      internalID: 6509663393023076733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_10
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 930
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d18547525251270800000000000000
+      internalID: 8220517537630657871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_11
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 930
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30321518528381060800000000000000
+      internalID: 6924346160816661251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_12
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 930
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e67ac0801d203c50800000000000000
+      internalID: 6642858999274960610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_13
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 927
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03a799a5efe018b0800000000000000
+      internalID: -5183379401431604469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_14
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 927
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a96b22b74e7bde40800000000000000
+      internalID: 5682274201254980004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_15
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 930
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba1bc3092869fd40800000000000000
+      internalID: 5618636535487994549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_16
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 578
+        width: 215
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555937bcebaba3220800000000000000
+      internalID: 2466489074558670165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_17
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 672
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcbb370d9fd361a0800000000000000
+      internalID: -6817359545384584010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_18
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 672
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6987f5a57a1da28f0800000000000000
+      internalID: -564408286575626090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_19
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 576
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b655e85eda27ae0800000000000000
+      internalID: -1552987720042321065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_20
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 576
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590f437e990c6e6b0800000000000000
+      internalID: -5267310946921680747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_21
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 384
+        width: 65
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea60f24e552efc60800000000000000
+      internalID: 7853755886960929519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_22
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 386
+        width: 19
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5000032, y: 0.3183521}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8e73488296d2350800000000000000
+      internalID: 5993562301837863101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_23
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 352
+        width: 26
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5000023, y: 0.20806558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcd60b3cc6a55660800000000000000
+      internalID: 7373983360982899957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carteles_24
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 351
+        width: 30
+        height: 34
+      alignment: 9
+      pivot: {x: 0.51816815, y: 0.13136113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b66895aee1f32a0800000000000000
+      internalID: -6755646924159292520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 059542cf15b029446a8dd1f1ed1a0f37
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      carteles_0: -544371776081336
+      carteles_1: 66552991489010372
+      carteles_10: 8220517537630657871
+      carteles_11: 6924346160816661251
+      carteles_12: 6642858999274960610
+      carteles_13: -5183379401431604469
+      carteles_14: 5682274201254980004
+      carteles_15: 5618636535487994549
+      carteles_16: 2466489074558670165
+      carteles_17: -6817359545384584010
+      carteles_18: -564408286575626090
+      carteles_19: -1552987720042321065
+      carteles_2: -6798032837855907957
+      carteles_20: -5267310946921680747
+      carteles_21: 7853755886960929519
+      carteles_22: 5993562301837863101
+      carteles_23: 7373983360982899957
+      carteles_24: -6755646924159292520
+      carteles_3: 3667380920011565923
+      carteles_4: -322158712391386212
+      carteles_5: 1668397754424222491
+      carteles_6: -5279083385707074692
+      carteles_7: 5335258744144157778
+      carteles_8: 6881020674928829296
+      carteles_9: 6509663393023076733
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
