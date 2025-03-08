@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: f0c220816b2b60f40be88272227c25fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2956458072604196284
+    second: bloqueo2_0
+  - first:
+      213: -6376948068849779372
+    second: bloqueo2_1
+  - first:
+      213: -5962765379996089758
+    second: bloqueo2_2
+  - first:
+      213: 4697604929407988080
+    second: bloqueo2_3
+  - first:
+      213: 3065247400269364950
+    second: bloqueo2_4
+  - first:
+      213: -3026398272343477576
+    second: bloqueo2_5
+  - first:
+      213: -1851623991271074268
+    second: bloqueo2_6
+  - first:
+      213: 4173077946831487362
+    second: bloqueo2_7
+  - first:
+      213: -3748663396222899228
+    second: bloqueo2_8
+  - first:
+      213: -3999601568399416132
+    second: bloqueo2_9
+  - first:
+      213: -8050442268787786530
+    second: bloqueo2_10
+  - first:
+      213: -8608345272868022098
+    second: bloqueo2_11
+  - first:
+      213: 2207344218575400037
+    second: bloqueo2_12
+  - first:
+      213: 1517953793989967481
+    second: bloqueo2_13
+  - first:
+      213: -6087283030939678628
+    second: bloqueo2_14
+  - first:
+      213: 1596874184637446872
+    second: bloqueo2_15
+  - first:
+      213: -5207270580781579211
+    second: bloqueo2_16
+  - first:
+      213: 4045639172897006922
+    second: bloqueo2_17
+  - first:
+      213: 4377105756000542720
+    second: bloqueo2_18
+  - first:
+      213: -720766551260707662
+    second: bloqueo2_19
+  - first:
+      213: 9185430847340338126
+    second: bloqueo2_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bloqueo2_0
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 991
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44247150c0d88f6d0800000000000000
+      internalID: -2956458072604196284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_1
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 991
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d781594878087a0800000000000000
+      internalID: -6376948068849779372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_2
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 991
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262065e9a70004da0800000000000000
+      internalID: -5962765379996089758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_3
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 991
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071bc785bce313140800000000000000
+      internalID: 4697604929407988080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_4
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 994
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6debeb92542f98a20800000000000000
+      internalID: 3065247400269364950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_5
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 993
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b27c1c4ec21006d0800000000000000
+      internalID: -3026398272343477576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_6
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 991
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42652be4ac5bd46e0800000000000000
+      internalID: -1851623991271074268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_7
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 991
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28148e06840c9e930800000000000000
+      internalID: 4173077946831487362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_8
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 930
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebef9d90821afbc0800000000000000
+      internalID: -3748663396222899228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_9
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 930
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb42578709f8e78c0800000000000000
+      internalID: -3999601568399416132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_10
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 930
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc3d1cd865174090800000000000000
+      internalID: -8050442268787786530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_11
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 930
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8d9c25593098880800000000000000
+      internalID: -8608345272868022098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_12
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 930
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ce23d2fdf02ae10800000000000000
+      internalID: 2207344218575400037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_13
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 927
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e7a34eeead01510800000000000000
+      internalID: 1517953793989967481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_14
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 927
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58c39dc550a58ba0800000000000000
+      internalID: -6087283030939678628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_15
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 930
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da7e4e3c9c392610800000000000000
+      internalID: 1596874184637446872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_16
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 578
+        width: 215
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5340c2ffefe0cb7b0800000000000000
+      internalID: -5207270580781579211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_17
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 672
+        width: 32
+        height: 56
+      alignment: 9
+      pivot: {x: 0.48674774, y: 0.13637325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a456eed946ff42830800000000000000
+      internalID: 4045639172897006922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_18
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 672
+        width: 32
+        height: 56
+      alignment: 9
+      pivot: {x: 0.53977203, y: 0.14394924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000eab28e7a9ebc30800000000000000
+      internalID: 4377105756000542720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_19
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 576
+        width: 32
+        height: 56
+      alignment: 9
+      pivot: {x: 0.53977585, y: 0.12879835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b44f12f3a25ff5f0800000000000000
+      internalID: -720766551260707662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloqueo2_20
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 576
+        width: 32
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5132599, y: 0.13637434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbd2ac60b4397f70800000000000000
+      internalID: 9185430847340338126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 61355ddbf0b1dbd4facf8328eed3ffe5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bloqueo2_0: -2956458072604196284
+      bloqueo2_1: -6376948068849779372
+      bloqueo2_10: -8050442268787786530
+      bloqueo2_11: -8608345272868022098
+      bloqueo2_12: 2207344218575400037
+      bloqueo2_13: 1517953793989967481
+      bloqueo2_14: -6087283030939678628
+      bloqueo2_15: 1596874184637446872
+      bloqueo2_16: -5207270580781579211
+      bloqueo2_17: 4045639172897006922
+      bloqueo2_18: 4377105756000542720
+      bloqueo2_19: -720766551260707662
+      bloqueo2_2: -5962765379996089758
+      bloqueo2_20: 9185430847340338126
+      bloqueo2_3: 4697604929407988080
+      bloqueo2_4: 3065247400269364950
+      bloqueo2_5: -3026398272343477576
+      bloqueo2_6: -1851623991271074268
+      bloqueo2_7: 4173077946831487362
+      bloqueo2_8: -3748663396222899228
+      bloqueo2_9: -3999601568399416132
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
