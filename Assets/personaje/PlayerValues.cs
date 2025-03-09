@@ -16,7 +16,8 @@ public class PlayerValues : MonoBehaviour
     private bool isDead = false;
     public GameObject gameOverCanvas;
     public Text gameOverText;
-
+    private Animator playerAnimator;
+    private CanvasGroup gameOverCanvasGroup;
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
@@ -30,7 +31,16 @@ public class PlayerValues : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
         currentStamina = maxStamina;
         staminaBar.SetMaxStamina(maxStamina);
-        gameOverCanvas.SetActive(false);
+        playerAnimator = GetComponent<Animator>();
+        gameOverCanvas.SetActive(true);
+        gameOverCanvasGroup = gameOverCanvas.GetComponent<CanvasGroup>();
+        if (gameOverCanvasGroup != null)
+        {
+            gameOverCanvasGroup.alpha = 0f;
+            gameOverCanvasGroup.interactable = false;
+            gameOverCanvasGroup.blocksRaycasts = false;
+        }
+
     }
 
     void Update()
@@ -40,7 +50,7 @@ public class PlayerValues : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (isDead) return;
+        if (isDead || playerAnimator.GetBool("IsProtecting")) return;
 
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
@@ -76,23 +86,36 @@ public class PlayerValues : MonoBehaviour
 
     private IEnumerator ShowGameOver()
     {
-        // Desactivar el movimiento del jugador
         var playerMovement = GetComponent<PlayerMovement>();
         playerMovement.enabled = false;
+        audioManager.StopSFX();
 
-        // Activar el Canvas de Game Over
-        gameOverCanvas.SetActive(true);
+        if (gameOverCanvasGroup != null)
+        {
+            gameOverCanvasGroup.interactable = true;
+            gameOverCanvasGroup.blocksRaycasts = true;
 
-        // Mostrar el texto gradualmente
+            float fadeDuration = 1f;
+            float elapsedTime = 0f;
+
+            while (elapsedTime < fadeDuration)
+            {
+                gameOverCanvasGroup.alpha = Mathf.Lerp(0f, 1f, elapsedTime / fadeDuration);
+                elapsedTime += Time.deltaTime;
+                yield return null;
+            }
+
+            gameOverCanvasGroup.alpha = 1f;
+        }
+
         string message = "¡Has Perdido!";
-        gameOverText.text = "";  // Inicializar el texto vacío
+        gameOverText.text = "";
         foreach (char c in message)
         {
             gameOverText.text += c;
-            yield return new WaitForSeconds(0.1f); // Espera 0.1 segundos entre cada carácter
+            yield return new WaitForSeconds(0.1f);
         }
 
-        // Espera unos segundos antes de finalizar (si es necesario)
         yield return new WaitForSeconds(2f);
     }
 }

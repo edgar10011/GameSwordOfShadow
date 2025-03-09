@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (moveInput.sqrMagnitude > 0)
+        if (moveInput.sqrMagnitude > 0 && !playerAnimator.GetBool("IsProtecting")) // Verificar si no está protegiéndose
         {
             playerRb.MovePosition(playerRb.position + moveInput * speed * Time.fixedDeltaTime);
 
@@ -74,6 +74,7 @@ public class PlayerMovement : MonoBehaviour
         {
             audioManager.StopSFX();
         }
+
         if (moveInput.sqrMagnitude == 0)
         {
             playerRb.linearVelocity = Vector2.zero;
@@ -82,42 +83,56 @@ public class PlayerMovement : MonoBehaviour
 
     private void DetectArcadeButtons()
     {
-        if (Input.GetKeyDown(KeyCode.JoystickButton0))
+        // Ataque (Joystick: Button 0, Teclado: Tecla J)
+        if (Input.GetKeyDown(KeyCode.JoystickButton0) || Input.GetKeyDown(KeyCode.Space))
         {
             Attack();
         }
-        if (Input.GetKeyDown(KeyCode.JoystickButton1))
+
+        // Proteger (Joystick: Button 1, Teclado: Tecla K)
+        if (Input.GetKeyDown(KeyCode.JoystickButton1) || Input.GetKeyDown(KeyCode.LeftShift))
         {
-            Debug.Log("Cubrirse");
+            StartProtecting();
+        }
+        if (Input.GetKeyUp(KeyCode.JoystickButton1) || Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            StopProtecting();
         }
 
-        if (Input.GetKeyDown(KeyCode.JoystickButton2))
+        // Sprint (Joystick: Button 2, Teclado: Tecla L)
+        if (Input.GetKeyDown(KeyCode.JoystickButton2) || Input.GetKeyDown(KeyCode.LeftControl))
         {
             StartSprint();
         }
-        if (Input.GetKeyUp(KeyCode.JoystickButton2))
+        if (Input.GetKeyUp(KeyCode.JoystickButton2) || Input.GetKeyUp(KeyCode.LeftControl))
         {
             StopSprint();
         }
 
-        if (Input.GetKeyDown(KeyCode.JoystickButton3) && canHeal)
+        // Curar (Joystick: Button 3, Teclado: Tecla H)
+        if ((Input.GetKeyDown(KeyCode.JoystickButton3) || Input.GetKeyDown(KeyCode.H)) && canHeal)
         {
             StartCoroutine(HealOverTime(3, 3f));
         }
 
-        if (Input.GetKeyDown(KeyCode.JoystickButton4))
+        // Golpe cargado (Joystick: Button 4, Teclado: Tecla U)
+        if (Input.GetKeyDown(KeyCode.JoystickButton4) || Input.GetKeyDown(KeyCode.C))
         {
             Debug.Log("Golpe cargado");
         }
-        if (Input.GetKeyDown(KeyCode.JoystickButton5))
+
+        // Esquivar (Joystick: Button 5, Teclado: Tecla I)
+        if (Input.GetKeyDown(KeyCode.JoystickButton5) || Input.GetKeyDown(KeyCode.Z))
         {
             Debug.Log("Esquivar");
         }
-        if (Input.GetKeyDown(KeyCode.JoystickButton6))
+
+        if (Input.GetKeyDown(KeyCode.JoystickButton6) || Input.GetKeyDown(KeyCode.Q))
         {
             Debug.Log("Cambio de arma");
         }
-        if (Input.GetKeyDown(KeyCode.JoystickButton7))
+
+        if (Input.GetKeyDown(KeyCode.JoystickButton7) || Input.GetKeyDown(KeyCode.E))
         {
             Debug.Log("Interactuar con el entorno");
         }
@@ -271,12 +286,31 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-
     private IEnumerator ResetAttackAnimation()
     {
         yield return new WaitForSeconds(playerAnimator.GetCurrentAnimatorStateInfo(0).length);
         playerAnimator.SetBool("IsAttacking", false);
     }
 
+    private void StartProtecting()
+    {
+        playerAnimator.SetBool("IsProtecting", true);
+        speed = 0f; // Detener el movimiento
+        playerRb.linearVelocity = Vector2.zero; // Detener cualquier movimiento residual
+        canRegenerateStamina = false; // Evitar regeneración de estamina mientras se protege
+
+        playerAnimator.SetFloat("Horizontal", 0f);
+        playerAnimator.SetFloat("Vertical", 0f);
+        playerAnimator.SetFloat("Speed", 0f);
+
+        audioManager.StopSFX();
+    }
+
+    private void StopProtecting()
+    {
+        playerAnimator.SetBool("IsProtecting", false);
+        speed = normalSpeed; // Restaurar la velocidad normal
+        canRegenerateStamina = true; // Permitir regeneración de estamina nuevamente
+    }
 
 }
