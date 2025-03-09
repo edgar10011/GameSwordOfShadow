@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D playerRb;
     private Vector2 moveInput;
-
+    private Vector2 lastMoveDirection = Vector2.down;
     private Animator playerAnimator;
 
     public StaminaBar staminaBar;
@@ -38,7 +38,10 @@ public class PlayerMovement : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
         moveInput = new Vector2(moveX, moveY).normalized;
-
+        if (moveInput.sqrMagnitude > 0)
+        {
+            lastMoveDirection = moveInput;
+        }
         playerAnimator.SetFloat("Horizontal", moveX);
         playerAnimator.SetFloat("Vertical", moveY);
         playerAnimator.SetFloat("Speed", moveInput.sqrMagnitude);
@@ -81,7 +84,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.JoystickButton0))
         {
-            Debug.Log("Golpe");
+            Attack();
         }
         if (Input.GetKeyDown(KeyCode.JoystickButton1))
         {
@@ -213,4 +216,67 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(5f);
         canHeal = true;
     }
+
+    private void Attack()
+    {
+        if (!playerAnimator.GetBool("IsAttacking")) // Verifica que no esté atacando
+        {
+            playerAnimator.SetBool("IsAttacking", true);
+            StartCoroutine(ResetAttackAnimation()); // Inicia la corrutina para resetear el ataque
+
+            float attackRange = 1.0f;
+            float attackWidth = 1f;
+
+            // Dirección de ataque basada en la última dirección de movimiento
+            Vector2 attackDirection = moveInput == Vector2.zero ? lastMoveDirection : moveInput;
+            Vector2 attackOrigin = (Vector2)transform.position + attackDirection * 0.5f;
+
+            // Dibujar el área de ataque para depuración
+            Debug.DrawRay(attackOrigin, attackDirection * attackRange, Color.red, 0.5f);
+
+            Vector2 topLeft = attackOrigin + new Vector2(-attackWidth / 2, attackRange / 2);
+            Vector2 bottomRight = attackOrigin + new Vector2(attackWidth / 2, -attackRange / 2);
+
+            Debug.DrawLine(topLeft, new Vector2(topLeft.x, bottomRight.y), Color.green, 0.5f);
+            Debug.DrawLine(topLeft, new Vector2(bottomRight.x, topLeft.y), Color.green, 0.5f);
+            Debug.DrawLine(bottomRight, new Vector2(topLeft.x, bottomRight.y), Color.green, 0.5f);
+            Debug.DrawLine(bottomRight, new Vector2(bottomRight.x, topLeft.y), Color.green, 0.5f);
+
+            // Buscar enemigos por su SpriteRenderer usando la nueva API
+            EnemyValues[] enemies = Object.FindObjectsByType<EnemyValues>(FindObjectsSortMode.None);
+            foreach (EnemyValues enemy in enemies)
+            {
+                if (IsEnemyInAttackArea(enemy, topLeft, bottomRight))
+                {
+                    enemy.TakeDamage(1);
+                }
+            }
+        }
+    }
+
+    // Función para verificar si el SpriteRenderer del enemigo está dentro del área de ataque
+    private bool IsEnemyInAttackArea(EnemyValues enemy, Vector2 topLeft, Vector2 bottomRight)
+    {
+        if (enemy == null) return false;
+
+        SpriteRenderer enemySprite = enemy.GetComponent<SpriteRenderer>();
+        if (enemySprite == null) return false;
+
+        // Obtiene el área del sprite del enemigo
+        Bounds enemyBounds = enemySprite.bounds;
+
+        // Verifica si el centro del sprite está dentro del área de ataque
+        return (enemyBounds.center.x >= topLeft.x && enemyBounds.center.x <= bottomRight.x) &&
+               (enemyBounds.center.y >= bottomRight.y && enemyBounds.center.y <= topLeft.y);
+    }
+
+
+
+    private IEnumerator ResetAttackAnimation()
+    {
+        yield return new WaitForSeconds(playerAnimator.GetCurrentAnimatorStateInfo(0).length);
+        playerAnimator.SetBool("IsAttacking", false);
+    }
+
+
 }

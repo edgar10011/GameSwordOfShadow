@@ -32,6 +32,7 @@ TagManager:
   - nivel8
   - SpawnNive8
   - SpawnFinal
+  - Enemy
   layers:
   - Default
   - TransparentFX

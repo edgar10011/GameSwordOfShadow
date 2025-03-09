@@ -14,7 +14,7 @@ public class EnemyMovement : MonoBehaviour
     public float chaseDistance = 4f;
     public float stopChaseDistance = 1f;
     public float escapeDistance = 5f;
-    public float attackCooldown = 0.5f;
+    public float attackCooldown = 2f;
 
     private GameObject player;
     private Vector2 movement;

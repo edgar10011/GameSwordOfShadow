@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2393626861484015041}
   - component: {fileID: 4540680067854450169}
   - component: {fileID: 5545805948958719242}
+  - component: {fileID: -7176376166433986240}
   m_Layer: 0
   m_Name: EnemyOrc1
   m_TagString: Untagged
@@ -208,3 +209,15 @@ MonoBehaviour:
   stopChaseDistance: 1
   escapeDistance: 5
   attackCooldown: 0.5
+--- !u!114 &-7176376166433986240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3827565102339346235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d8d5034548b5594392e5b3337b82f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
