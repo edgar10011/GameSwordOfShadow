@@ -1,35 +1,31 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
-guid: 14874e612672a4f48851dd474d463a49
-=======
-guid: f8d87fcb056c17843bed904c85ad341c
->>>>>>> Stashed changes
+guid: f92643ef59f14264095801e9d2172f4d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8793639957104055765
-    second: idle_0
+      213: -4744724232239111109
+    second: idle 1_0
   - first:
-      213: 6084859605308855041
-    second: idle_1
+      213: 5241860297644566261
+    second: idle 1_1
   - first:
-      213: 8603369663158992956
-    second: idle_2
+      213: 456404381510539164
+    second: idle 1_2
   - first:
-      213: -5906421172241655209
-    second: idle_3
+      213: -4228064520661559452
+    second: idle 1_3
   - first:
-      213: 5704420531145803721
-    second: idle_4
+      213: 882804667580528800
+    second: idle 1_4
   - first:
-      213: -148617073940163930
-    second: idle_5
+      213: -2887426513380539291
+    second: idle 1_5
   - first:
-      213: 4729606205655721961
-    second: idle_6
+      213: 1163749383530587084
+    second: idle 1_6
   - first:
-      213: -2073685336235588006
-    second: idle_7
+      213: 2708824660030715618
+    second: idle 1_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,20 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_0
+      name: idle 1_0
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 15
         y: 183
         width: 31
         height: 49
-=======
-        x: 16
-        y: 193
-        width: 32
-        height: 51
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,27 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d55ed543f8490a70800000000000000
-      internalID: 8793639957104055765
+      spriteID: b34233c037a572eb0800000000000000
+      internalID: -4744724232239111109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_1
+      name: idle 1_1
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 75
         y: 182
         width: 30
         height: 51
-=======
-        x: 80
-        y: 193
-        width: 32
-        height: 52
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,27 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 103de827293c17450800000000000000
-      internalID: 6084859605308855041
+      spriteID: 5f6e35b0b24deb840800000000000000
+      internalID: 5241860297644566261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_2
+      name: idle 1_2
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 18
         y: 122
         width: 25
         height: 49
-=======
-        x: 19
-        y: 129
-        width: 26
-        height: 51
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,27 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c30c6f3402f456770800000000000000
-      internalID: 8603369663158992956
+      spriteID: c971ed9ed59755600800000000000000
+      internalID: 456404381510539164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_3
+      name: idle 1_3
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 78
         y: 122
         width: 25
         height: 50
-=======
-        x: 83
-        y: 129
-        width: 26
-        height: 52
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,27 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75a90b6cc3d280ea0800000000000000
-      internalID: -5906421172241655209
+      spriteID: 467198e38b5e255c0800000000000000
+      internalID: -4228064520661559452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_4
+      name: idle 1_4
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 15
         y: 60
         width: 31
         height: 51
-=======
-        x: 16
-        y: 65
-        width: 32
-        height: 52
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,27 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c70460ff3c2a2f40800000000000000
-      internalID: 5704420531145803721
+      spriteID: 0a8b139fa2a504c00800000000000000
+      internalID: 882804667580528800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_5
+      name: idle 1_5
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 75
         y: 60
         width: 31
         height: 52
-=======
-        x: 80
-        y: 65
-        width: 32
-        height: 53
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,27 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a21d340f8100fdf0800000000000000
-      internalID: -148617073940163930
+      spriteID: 56488e262eccde7d0800000000000000
+      internalID: -2887426513380539291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_6
+      name: idle 1_6
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 18
         y: 1
         width: 25
         height: 49
-=======
-        x: 19
-        y: 1
-        width: 26
-        height: 51
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,27 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e7a79719cfe2a140800000000000000
-      internalID: 4729606205655721961
+      spriteID: cc3abe406e7762010800000000000000
+      internalID: 1163749383530587084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_7
+      name: idle 1_7
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 78
         y: 1
         width: 25
         height: 50
-=======
-        x: 83
-        y: 1
-        width: 26
-        height: 52
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a56cdbd6c2ac833e0800000000000000
-      internalID: -2073685336235588006
+      spriteID: 2e6f2f32dada79520800000000000000
+      internalID: 2708824660030715618
       vertices: []
       indices: 
       edges: []
@@ -370,14 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      idle_0: 8793639957104055765
-      idle_1: 6084859605308855041
-      idle_2: 8603369663158992956
-      idle_3: -5906421172241655209
-      idle_4: 5704420531145803721
-      idle_5: -148617073940163930
-      idle_6: 4729606205655721961
-      idle_7: -2073685336235588006
+      idle 1_0: -4744724232239111109
+      idle 1_1: 5241860297644566261
+      idle 1_2: 456404381510539164
+      idle 1_3: -4228064520661559452
+      idle 1_4: 882804667580528800
+      idle 1_5: -2887426513380539291
+      idle 1_6: 1163749383530587084
+      idle 1_7: 2708824660030715618
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
