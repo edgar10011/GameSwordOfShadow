@@ -38,18 +38,25 @@ jobs:
         with:
           name: WebGL-Build
           path: build/WebGL
+  dockerize:
+    name: Create Docker Image
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      # Login to Docker Hub
-      - name: Login to Docker Hub
-        uses: docker/login-action@v2
+      - name: Download WebGL Build
+        uses: actions/download-artifact@v4
         with:
-          username: ${{ secrets.DOCKER_USERNAME }}  
-          password: ${{ secrets.DOCKER_PASSWORD }}  
+          name: WebGL-Build
+          path: build/WebGL
 
-      # Build and push Docker image to your repository
-      - name: Build and push Docker image
-        uses: docker/build-push-action@v2
-        with:
-          context: .
-          push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/imagen:latest  # Cambia 'imagen' por el nombre de tu repositorio
+      - name: Build Docker Image
+        run: |
+          docker build -t images:latest .
+
+      - name: Push Docker Image to DockerHub
+        run: |
+          echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+          docker tag images:latest ${{ secrets.DOCKER_USERNAME }}/images:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/images:latest
