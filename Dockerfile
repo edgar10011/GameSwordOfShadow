@@ -1,10 +1,10 @@
 # Etapa 1: Construcción del juego en Unity
-FROM unityci/editor:ubuntu-2022.3.10f1-webgl-1 AS builder
+FROM gameci/unity-builder:latest AS builder
 
 # Definir directorio de trabajo
 WORKDIR /app
 
-# Copiar archivos del repositorio
+# Copiar archivos del proyecto
 COPY . .
 
 # Ejecutar la compilación de Unity en modo batch
@@ -13,7 +13,7 @@ RUN unity-editor -batchmode -quit -projectPath /app -buildTarget WebGL -executeM
 # Etapa 2: Servir el juego con Nginx
 FROM nginx:latest
 
-# Copiar los archivos generados desde la etapa anterior
+# Copiar los archivos de la build
 COPY --from=builder /app/build/WebGL /usr/share/nginx/html
 
 # Exponer el puerto 80
