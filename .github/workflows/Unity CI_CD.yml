@@ -54,10 +54,10 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t images:latest .
+          docker build -t imagen:latest .
 
       - name: Push Docker Image to DockerHub
         run: |
           echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
-          docker tag images:latest ${{ secrets.DOCKER_USERNAME }}/images:latest
-          docker push ${{ secrets.DOCKER_USERNAME }}/images:latest
+          docker tag imagen:latest ${{ secrets.DOCKER_USERNAME }}/imagen:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/imagen:latest
