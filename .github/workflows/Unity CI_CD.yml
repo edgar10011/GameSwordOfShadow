@@ -50,8 +50,15 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: WebGL-Build
-          path: build/WebGL
-
+          path: build
+          
+      - name: Fix WebGL Build Structure
+        run: |
+          ls -lR build
+          mv build/swordofshadows/* build/
+          rm -rf build/swordofshadows
+          ls -lR build
+          
       - name: Build Docker Image
         run: |
           docker build -t imagen:latest .
