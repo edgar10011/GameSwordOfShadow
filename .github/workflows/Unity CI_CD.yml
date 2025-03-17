@@ -41,6 +41,7 @@ jobs:
   dockerize:
     name: Create Docker Image
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
