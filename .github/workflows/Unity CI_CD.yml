@@ -55,9 +55,7 @@ jobs:
       - name: Fix WebGL Build Structure
         run: |
           ls -lR build/
-          unzip build/WebGL-Build.zip -d build/unzipped
-          mv build/unzipped/swordofshadows/* build/WebGL/
-          rm -rf build/unzipped
+          mv build/swordofshadows build/WebGL
           ls -lR build/WebGL/
           
       - name: Build Docker Image
