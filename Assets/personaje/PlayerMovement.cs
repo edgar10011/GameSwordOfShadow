@@ -31,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
         playerRb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         speed = normalSpeed;
+        lastMoveDirection = Vector2.down;
     }
 
     void Update()
@@ -38,17 +39,18 @@ public class PlayerMovement : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
         moveInput = new Vector2(moveX, moveY).normalized;
+
         if (moveInput.sqrMagnitude > 0)
         {
             lastMoveDirection = moveInput;
         }
-        playerAnimator.SetFloat("Horizontal", moveX);
-        playerAnimator.SetFloat("Vertical", moveY);
+
+        playerAnimator.SetFloat("Horizontal", lastMoveDirection.x);
+        playerAnimator.SetFloat("Vertical", lastMoveDirection.y);
         playerAnimator.SetFloat("Speed", moveInput.sqrMagnitude);
 
         DetectArcadeButtons();
     }
-
     private void FixedUpdate()
     {
         if (moveInput.sqrMagnitude > 0 && !playerAnimator.GetBool("IsProtecting")) // Verificar si no está protegiéndose
