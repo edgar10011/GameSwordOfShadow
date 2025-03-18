@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 # Copiar los archivos de la build generada por GitHub Actions
-COPY build/WebGL /usr/share/nginx/html/
+COPY build/WebGL/ /usr/share/nginx/html/
 
 # Reemplazar la configuración por defecto de Nginx para servir WebGL correctamente
 RUN rm /etc/nginx/conf.d/default.conf
