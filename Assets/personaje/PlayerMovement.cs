@@ -5,9 +5,15 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float normalSpeed = 3f;
     [SerializeField] private float sprintSpeed = 5f;
-    [SerializeField] private float chargedAttackSpeed = 1f;
+    [SerializeField] private float chargedAttackSpeed = 7f;
     [SerializeField] private float chargedAttackCooldown = 3f;
     [SerializeField] private float chargedAttackDamageMultiplier = 2f;
+    [SerializeField] private float dodgeSpeed = 7f;
+    [SerializeField] private float dodgeDuration = 0.5f;
+    [SerializeField] private float dodgeCooldown = 1f;
+    private bool isDodging = false;
+    private bool canDodge = true;
+    private Coroutine dodgeCoroutine;
     private bool isChargedAttacking = false;
     private bool canChargedAttack = true;
     private Coroutine chargedAttackCoroutine;
@@ -139,7 +145,7 @@ public class PlayerMovement : MonoBehaviour
         // Esquivar (Joystick: Button 5, Teclado: Tecla Z)
         if (Input.GetKeyDown(KeyCode.JoystickButton5) || Input.GetKeyDown(KeyCode.Z))
         {
-            Debug.Log("Esquivar");
+            StartDodge();
         }
 
         if (Input.GetKeyDown(KeyCode.JoystickButton6) || Input.GetKeyDown(KeyCode.Q))
@@ -155,6 +161,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void StartSprint()
     {
+        if (isDodging) return;
         if (isChargedAttacking) return;
         if (playerValues.currentStamina > 0)
         {
@@ -250,6 +257,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Attack()
     {
+        if (isDodging) return;
         if (isChargedAttacking) return;
         if (!playerAnimator.GetBool("IsAttacking"))
         {
@@ -327,6 +335,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void StartChargedAttack()
     {
+        if (isDodging) return;
         if (playerAnimator.GetBool("IsProtecting"))
         {
             Debug.Log("No se puede realizar un ataque cargado mientras se está protegiendo.");
@@ -348,6 +357,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator ChargedAttack()
     {
+
         yield return new WaitForSeconds(0.5f);
 
         Vector2 attackDirection = lastMoveDirection;
@@ -413,5 +423,50 @@ public class PlayerMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(chargedAttackCooldown);
         canChargedAttack = true;
+    }
+
+    private void StartDodge()
+    {
+        if (!isDodging && canDodge)
+        {
+            isDodging = true;
+            canDodge = false;
+            playerAnimator.SetBool("IsDodging", true);
+
+            // Detener cualquier movimiento actual
+            moveInput = Vector2.zero;
+            playerRb.linearVelocity = Vector2.zero;
+
+            dodgeCoroutine = StartCoroutine(Dodge());
+        }
+    }
+    private IEnumerator Dodge()
+    {
+        Vector2 dodgeDirection = lastMoveDirection;
+
+        float timer = 0f;
+
+        while (timer < dodgeDuration)
+        {
+            Vector2 newPosition = playerRb.position + dodgeDirection * dodgeSpeed * Time.fixedDeltaTime;
+            playerRb.MovePosition(newPosition);
+
+            timer += Time.fixedDeltaTime;
+            yield return new WaitForFixedUpdate();
+        }
+
+        // Detener el movimiento
+        playerRb.linearVelocity = Vector2.zero;
+
+        playerAnimator.SetBool("IsDodging", false);
+        isDodging = false;
+
+        StartCoroutine(DodgeCooldown());
+    }
+
+    private IEnumerator DodgeCooldown()
+    {
+        yield return new WaitForSeconds(dodgeCooldown);
+        canDodge = true;
     }
 }

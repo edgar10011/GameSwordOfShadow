@@ -18,7 +18,6 @@ public class EnemyValues : MonoBehaviour
     public void TakeDamage(int damage)
     {
         if (isDead) return;
-        Debug.Log($"Daño recibido: {damage}");
         currentHealth -= damage;
         StartCoroutine(FlashRed());
 
