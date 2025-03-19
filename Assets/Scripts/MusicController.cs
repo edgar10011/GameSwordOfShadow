@@ -9,7 +9,7 @@ public class MusicController : MonoBehaviour
 
     void Start()
     {
-        menuMusic = FindObjectOfType<AudioSource>(); // Encuentra el AudioSource en la escena
+        menuMusic = FindAnyObjectByType<AudioSource>(); // Encuentra el AudioSource en la escena
 
         // Si hay un volumen guardado, lo carga; si no, usa 1 (volumen máximo)
         float savedVolume = PlayerPrefs.HasKey("MusicVolume") ? PlayerPrefs.GetFloat("MusicVolume") : 1f;

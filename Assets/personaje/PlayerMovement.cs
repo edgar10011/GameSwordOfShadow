@@ -1,10 +1,16 @@
 using UnityEngine;
 using System.Collections;
-
+using System.Collections.Generic;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float normalSpeed = 3f;
     [SerializeField] private float sprintSpeed = 5f;
+    [SerializeField] private float chargedAttackSpeed = 1f;
+    [SerializeField] private float chargedAttackCooldown = 3f;
+    [SerializeField] private float chargedAttackDamageMultiplier = 2f;
+    private bool isChargedAttacking = false;
+    private bool canChargedAttack = true;
+    private Coroutine chargedAttackCoroutine;
     private float speed;
     private bool isSprinting = false;
     private bool canRegenerateStamina = true;
@@ -53,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (moveInput.sqrMagnitude > 0 && !playerAnimator.GetBool("IsProtecting")) // Verificar si no está protegiéndose
+        if (moveInput.sqrMagnitude > 0 && !playerAnimator.GetBool("IsProtecting"))
         {
             playerRb.MovePosition(playerRb.position + moveInput * speed * Time.fixedDeltaTime);
 
@@ -85,7 +91,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void DetectArcadeButtons()
     {
-        // Ataque (Joystick: Button 0, Teclado: Tecla J)
+        // Ataque (Joystick: Button 0, Teclado: Tecla Espacio)
         if (Input.GetKeyDown(KeyCode.JoystickButton0) || Input.GetKeyDown(KeyCode.Space))
         {
             Attack();
@@ -117,13 +123,20 @@ public class PlayerMovement : MonoBehaviour
             StartCoroutine(HealOverTime(3, 3f));
         }
 
-        // Golpe cargado (Joystick: Button 4, Teclado: Tecla U)
+        // Golpe cargado (Joystick: Button 4, Teclado: Tecla C)
         if (Input.GetKeyDown(KeyCode.JoystickButton4) || Input.GetKeyDown(KeyCode.C))
         {
-            Debug.Log("Golpe cargado");
+            if (!playerAnimator.GetBool("IsProtecting"))
+            {
+                StartChargedAttack();
+            }
+            else
+            {
+                Debug.Log("No se puede realizar un ataque cargado mientras se está protegiendo.");
+            }
         }
 
-        // Esquivar (Joystick: Button 5, Teclado: Tecla I)
+        // Esquivar (Joystick: Button 5, Teclado: Tecla Z)
         if (Input.GetKeyDown(KeyCode.JoystickButton5) || Input.GetKeyDown(KeyCode.Z))
         {
             Debug.Log("Esquivar");
@@ -142,6 +155,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void StartSprint()
     {
+        if (isChargedAttacking) return;
         if (playerValues.currentStamina > 0)
         {
             isSprinting = true;
@@ -236,10 +250,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void Attack()
     {
-        if (!playerAnimator.GetBool("IsAttacking")) // Verifica que no esté atacando
+        if (isChargedAttacking) return;
+        if (!playerAnimator.GetBool("IsAttacking"))
         {
             playerAnimator.SetBool("IsAttacking", true);
-            StartCoroutine(ResetAttackAnimation()); // Inicia la corrutina para resetear el ataque
+            StartCoroutine(ResetAttackAnimation());
 
             float attackRange = 1.0f;
             float attackWidth = 1f;
@@ -248,7 +263,6 @@ public class PlayerMovement : MonoBehaviour
             Vector2 attackDirection = moveInput == Vector2.zero ? lastMoveDirection : moveInput;
             Vector2 attackOrigin = (Vector2)transform.position + attackDirection * 0.5f;
 
-            // Dibujar el área de ataque para depuración
             Debug.DrawRay(attackOrigin, attackDirection * attackRange, Color.red, 0.5f);
 
             Vector2 topLeft = attackOrigin + new Vector2(-attackWidth / 2, attackRange / 2);
@@ -259,7 +273,6 @@ public class PlayerMovement : MonoBehaviour
             Debug.DrawLine(bottomRight, new Vector2(topLeft.x, bottomRight.y), Color.green, 0.5f);
             Debug.DrawLine(bottomRight, new Vector2(bottomRight.x, topLeft.y), Color.green, 0.5f);
 
-            // Buscar enemigos por su SpriteRenderer usando la nueva API
             EnemyValues[] enemies = Object.FindObjectsByType<EnemyValues>(FindObjectsSortMode.None);
             foreach (EnemyValues enemy in enemies)
             {
@@ -270,8 +283,6 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
-
-    // Función para verificar si el SpriteRenderer del enemigo está dentro del área de ataque
     private bool IsEnemyInAttackArea(EnemyValues enemy, Vector2 topLeft, Vector2 bottomRight)
     {
         if (enemy == null) return false;
@@ -279,7 +290,6 @@ public class PlayerMovement : MonoBehaviour
         SpriteRenderer enemySprite = enemy.GetComponent<SpriteRenderer>();
         if (enemySprite == null) return false;
 
-        // Obtiene el área del sprite del enemigo
         Bounds enemyBounds = enemySprite.bounds;
 
         // Verifica si el centro del sprite está dentro del área de ataque
@@ -297,9 +307,9 @@ public class PlayerMovement : MonoBehaviour
     private void StartProtecting()
     {
         playerAnimator.SetBool("IsProtecting", true);
-        speed = 0f; // Detener el movimiento
+        speed = 0f;
         playerRb.linearVelocity = Vector2.zero; // Detener cualquier movimiento residual
-        canRegenerateStamina = false; // Evitar regeneración de estamina mientras se protege
+        canRegenerateStamina = false;
 
         playerAnimator.SetFloat("Horizontal", 0f);
         playerAnimator.SetFloat("Vertical", 0f);
@@ -311,8 +321,97 @@ public class PlayerMovement : MonoBehaviour
     private void StopProtecting()
     {
         playerAnimator.SetBool("IsProtecting", false);
-        speed = normalSpeed; // Restaurar la velocidad normal
-        canRegenerateStamina = true; // Permitir regeneración de estamina nuevamente
+        speed = normalSpeed;
+        canRegenerateStamina = true;
     }
 
+    private void StartChargedAttack()
+    {
+        if (playerAnimator.GetBool("IsProtecting"))
+        {
+            Debug.Log("No se puede realizar un ataque cargado mientras se está protegiendo.");
+            return;
+        }
+        if (!isChargedAttacking && canChargedAttack)
+        {
+            isChargedAttacking = true;
+            canChargedAttack = false;
+            playerAnimator.SetBool("IsChargedAttacking", true);
+
+            // Detener cualquier movimiento actual
+            moveInput = Vector2.zero;
+            playerRb.linearVelocity = Vector2.zero;
+
+            chargedAttackCoroutine = StartCoroutine(ChargedAttack());
+        }
+    }
+
+    private IEnumerator ChargedAttack()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        Vector2 attackDirection = lastMoveDirection;
+
+        float attackDuration = 0.5f;
+        float timer = 0f;
+
+        while (timer < attackDuration)
+        {
+            Vector2 newPosition = playerRb.position + attackDirection * chargedAttackSpeed * Time.fixedDeltaTime;
+            playerRb.MovePosition(newPosition);
+
+            DetectEnemiesDuringChargedAttack(attackDirection);
+
+            timer += Time.fixedDeltaTime;
+            yield return new WaitForFixedUpdate();
+        }
+
+        // Detener el movimiento
+        playerRb.linearVelocity = Vector2.zero;
+
+        playerAnimator.SetBool("IsChargedAttacking", false);
+        isChargedAttacking = false;
+        damagedEnemies.Clear();
+
+        StartCoroutine(ChargedAttackCooldown());
+    }
+
+    private HashSet<EnemyValues> damagedEnemies = new HashSet<EnemyValues>();
+    private void DetectEnemiesDuringChargedAttack(Vector2 attackDirection)
+    {
+        float attackRange = 1.5f;
+        float attackWidth = 1f;
+
+        Vector2 attackOrigin = (Vector2)transform.position + attackDirection * 0.5f;
+
+        Debug.DrawRay(attackOrigin, attackDirection * attackRange, Color.red, 0.5f);
+
+        Vector2 topLeft = attackOrigin + new Vector2(-attackWidth / 2, attackRange / 2);
+        Vector2 bottomRight = attackOrigin + new Vector2(attackWidth / 2, -attackRange / 2);
+
+        Debug.DrawLine(topLeft, new Vector2(topLeft.x, bottomRight.y), Color.green, 0.5f);
+        Debug.DrawLine(topLeft, new Vector2(bottomRight.x, topLeft.y), Color.green, 0.5f);
+        Debug.DrawLine(bottomRight, new Vector2(topLeft.x, bottomRight.y), Color.green, 0.5f);
+        Debug.DrawLine(bottomRight, new Vector2(bottomRight.x, topLeft.y), Color.green, 0.5f);
+
+        EnemyValues[] enemies = Object.FindObjectsByType<EnemyValues>(FindObjectsSortMode.None);
+        foreach (EnemyValues enemy in enemies)
+        {
+            // Verificar si el enemigo ya ha sido dañado durante este ataque cargado
+            if (!damagedEnemies.Contains(enemy) && IsEnemyInAttackArea(enemy, topLeft, bottomRight))
+            {
+                // Aplicar daño multiplicado
+                enemy.TakeDamage(Mathf.RoundToInt(1 * chargedAttackDamageMultiplier));
+
+                // Marcar al enemigo como dañado
+                damagedEnemies.Add(enemy);
+            }
+        }
+    }
+
+    private IEnumerator ChargedAttackCooldown()
+    {
+        yield return new WaitForSeconds(chargedAttackCooldown);
+        canChargedAttack = true;
+    }
 }
