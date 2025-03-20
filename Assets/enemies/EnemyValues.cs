@@ -31,7 +31,10 @@ public class EnemyValues : MonoBehaviour
     {
         isDead = true;
         animator.SetBool("IsDead", true);
-        Destroy(gameObject, 1.2f);
+
+        float deathAnimationDuration = animator.GetCurrentAnimatorStateInfo(0).length;
+
+        Destroy(gameObject, 1f);
     }
 
     private IEnumerator FlashRed()
@@ -39,5 +42,10 @@ public class EnemyValues : MonoBehaviour
         spriteRenderer.color = new Color(1f, 0f, 0f, 1f);
         yield return new WaitForSeconds(0.2f);
         spriteRenderer.color = Color.white;
+    }
+
+    public bool IsDead()
+    {
+        return isDead;
     }
 }
