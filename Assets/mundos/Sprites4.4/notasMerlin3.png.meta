@@ -1,0 +1,1339 @@
+fileFormatVersion: 2
+guid: 834c3af2fdd43d84490840f37cfa6830
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7597516366578241413
+    second: notasMerlin3_0
+  - first:
+      213: -7140010743500677242
+    second: notasMerlin3_1
+  - first:
+      213: 4211792456291691047
+    second: notasMerlin3_2
+  - first:
+      213: -8241344676372410199
+    second: notasMerlin3_3
+  - first:
+      213: -5380297067495809460
+    second: notasMerlin3_4
+  - first:
+      213: 3677585202919541680
+    second: notasMerlin3_5
+  - first:
+      213: 3242873491666500868
+    second: notasMerlin3_6
+  - first:
+      213: -1830168096108507253
+    second: notasMerlin3_7
+  - first:
+      213: -6761674602705709060
+    second: notasMerlin3_8
+  - first:
+      213: 2875006062300427612
+    second: notasMerlin3_9
+  - first:
+      213: 3559533882167329112
+    second: notasMerlin3_10
+  - first:
+      213: 5865953771489614883
+    second: notasMerlin3_11
+  - first:
+      213: 841227956714080912
+    second: notasMerlin3_12
+  - first:
+      213: 322094277182414963
+    second: notasMerlin3_13
+  - first:
+      213: -3668701989743152813
+    second: notasMerlin3_14
+  - first:
+      213: 6164668288399481618
+    second: notasMerlin3_15
+  - first:
+      213: 5182737736602462044
+    second: notasMerlin3_16
+  - first:
+      213: -2518929006738854986
+    second: notasMerlin3_17
+  - first:
+      213: 3413650438283160361
+    second: notasMerlin3_18
+  - first:
+      213: -5235098732202146524
+    second: notasMerlin3_19
+  - first:
+      213: -4180901128790017843
+    second: notasMerlin3_20
+  - first:
+      213: 8655509528551640799
+    second: notasMerlin3_21
+  - first:
+      213: -3450115663448679265
+    second: notasMerlin3_22
+  - first:
+      213: -10821148418985890
+    second: notasMerlin3_23
+  - first:
+      213: -7206461154847068735
+    second: notasMerlin3_24
+  - first:
+      213: 5989035775472330361
+    second: notasMerlin3_25
+  - first:
+      213: 929927824503090258
+    second: notasMerlin3_26
+  - first:
+      213: 4663718272401332895
+    second: notasMerlin3_27
+  - first:
+      213: -242383104210506392
+    second: notasMerlin3_28
+  - first:
+      213: -5689804037907634978
+    second: notasMerlin3_29
+  - first:
+      213: 1562238104462118750
+    second: notasMerlin3_30
+  - first:
+      213: -4627202920845084206
+    second: notasMerlin3_31
+  - first:
+      213: -4472251285119884880
+    second: notasMerlin3_32
+  - first:
+      213: 8743413140857723250
+    second: notasMerlin3_33
+  - first:
+      213: 8393155448791186846
+    second: notasMerlin3_34
+  - first:
+      213: -4920177704457521497
+    second: notasMerlin3_35
+  - first:
+      213: 798678836191742742
+    second: notasMerlin3_36
+  - first:
+      213: -2809171328636637440
+    second: notasMerlin3_37
+  - first:
+      213: -3781609425465925623
+    second: notasMerlin3_38
+  - first:
+      213: -6309807743217960209
+    second: notasMerlin3_39
+  - first:
+      213: 6686863786912289466
+    second: notasMerlin3_40
+  - first:
+      213: 1064827002260504808
+    second: notasMerlin3_41
+  - first:
+      213: 800500965331776716
+    second: notasMerlin3_42
+  - first:
+      213: -8886391048561972298
+    second: notasMerlin3_43
+  - first:
+      213: -2345658473430511713
+    second: notasMerlin3_44
+  - first:
+      213: -7485842353641682789
+    second: notasMerlin3_45
+  - first:
+      213: -51367479324977336
+    second: notasMerlin3_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: notasMerlin3_0
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1471
+        width: 66
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5215602, y: 0.20979229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7033e23e13309690800000000000000
+      internalID: -7597516366578241413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_1
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1535
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f5b25ee0699ec90800000000000000
+      internalID: -7140010743500677242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_2
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1441
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72aafe88cea437a30800000000000000
+      internalID: 4211792456291691047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_3
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1439
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0144d6eacd0ad80800000000000000
+      internalID: -8241344676372410199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_4
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1407
+        width: 118
+        height: 98
+      alignment: 9
+      pivot: {x: 0.48696744, y: 0.15478267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e16d9b2585555b0800000000000000
+      internalID: -5380297067495809460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1311
+        width: 130
+        height: 108
+      alignment: 9
+      pivot: {x: 0.51094574, y: 0.19037543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb8043e148690330800000000000000
+      internalID: 3677585202919541680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_6
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1343
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40dff4a5240010d20800000000000000
+      internalID: 3242873491666500868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_7
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1311
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f033030dfe996e0800000000000000
+      internalID: -1830168096108507253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_8
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1313
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf712f216c4b922a0800000000000000
+      internalID: -6761674602705709060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1279
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55f28ef7c216e720800000000000000
+      internalID: 2875006062300427612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_10
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1279
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8510d84e431066130800000000000000
+      internalID: 3559533882167329112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_11
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1225
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c508240ed086150800000000000000
+      internalID: 5865953771489614883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1023
+        width: 156
+        height: 92
+      alignment: 9
+      pivot: {x: 0.48175684, y: 0.15972768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a021f9e54acab00800000000000000
+      internalID: 841227956714080912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_13
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1023
+        width: 66
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5107801, y: 0.16298474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370e4afd90f487400800000000000000
+      internalID: 322094277182414963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_14
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 959
+        width: 122
+        height: 194
+      alignment: 9
+      pivot: {x: 0.49228606, y: 0.12400047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351379a5af6261dc0800000000000000
+      internalID: -3668701989743152813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_15
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1023
+        width: 66
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5323394, y: 0.19106895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b9a20852d4d8550800000000000000
+      internalID: 6164668288399481618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_16
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 963
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57a33a1388cce740800000000000000
+      internalID: 5182737736602462044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 929
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb27ea0a67fa0dd0800000000000000
+      internalID: -2518929006738854986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_18
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 897
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b6931ccf8bf5f20800000000000000
+      internalID: 3413650438283160361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_19
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 767
+        width: 118
+        height: 98
+      alignment: 9
+      pivot: {x: 0.48191082, y: 0.18782012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4254ef690713957b0800000000000000
+      internalID: -5235098732202146524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_20
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 773
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8f07123947af5c0800000000000000
+      internalID: -4180901128790017843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 735
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde445fae0c8e1870800000000000000
+      internalID: 8655509528551640799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_22
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 705
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c5126651abe10d0800000000000000
+      internalID: -3450115663448679265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_23
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 671
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50bc6c093e89dff0800000000000000
+      internalID: -10821148418985890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_24
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 671
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd60b9d2c18dfb90800000000000000
+      internalID: -7206461154847068735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_25
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 639
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97662287e445d1350800000000000000
+      internalID: 5989035775472330361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_26
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 543
+        width: 124
+        height: 120
+      alignment: 9
+      pivot: {x: 0.500001, y: 0.3814209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c224eed64c7ec00800000000000000
+      internalID: 929927824503090258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_27
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 639
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9adafe2f0bd8b040800000000000000
+      internalID: 4663718272401332895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_28
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 417
+        width: 154
+        height: 170
+      alignment: 9
+      pivot: {x: 0.41953725, y: 0.15984802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86de9f5d9d1e2acf0800000000000000
+      internalID: -242383104210506392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_29
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 585
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4aee69f51c901b0800000000000000
+      internalID: -5689804037907634978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_30
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 545
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f4b07674f2ea510800000000000000
+      internalID: 1562238104462118750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_31
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 447
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9f06f957fd8cfb0800000000000000
+      internalID: -4627202920845084206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_32
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 417
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b12524b62f5fe1c0800000000000000
+      internalID: -4472251285119884880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_33
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 419
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2799e415de7d65970800000000000000
+      internalID: 8743413140857723250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_34
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 351
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d35dd696a7a7470800000000000000
+      internalID: 8393155448791186846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_35
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 287
+        width: 122
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5174951, y: 0.12784095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6330e227408bbb0800000000000000
+      internalID: -4920177704457521497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_36
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 325
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bc4d08b2a751b00800000000000000
+      internalID: 798678836191742742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_37
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 289
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fa66b6f81d309d0800000000000000
+      internalID: -2809171328636637440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_38
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 159
+        width: 66
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5215597, y: 0.19066057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900a5db6346058bc0800000000000000
+      internalID: -3781609425465925623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_39
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 191
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feafb70d94f0f68a0800000000000000
+      internalID: -6309807743217960209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_40
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 127
+        width: 66
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5215602, y: 0.14425981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab294588f238ccc50800000000000000
+      internalID: 6686863786912289466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_41
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 165
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e04bf0548607ce00800000000000000
+      internalID: 1064827002260504808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 31
+        width: 66
+        height: 76
+      alignment: 9
+      pivot: {x: 0.48922014, y: 0.15362108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc435f00363fb1b00800000000000000
+      internalID: 800500965331776716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_43
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 33
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bba0476c623da480800000000000000
+      internalID: -8886391048561972298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_44
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 31
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f0ac6db0c827fd0800000000000000
+      internalID: -2345658473430511713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_45
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 37
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b980d928a02fc1890800000000000000
+      internalID: -7485842353641682789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notasMerlin3_46
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 31
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847d3d9bc81894ff0800000000000000
+      internalID: -51367479324977336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5935ef963f524d545a85516138fa1da8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      notasMerlin3_0: -7597516366578241413
+      notasMerlin3_1: -7140010743500677242
+      notasMerlin3_10: 3559533882167329112
+      notasMerlin3_11: 5865953771489614883
+      notasMerlin3_12: 841227956714080912
+      notasMerlin3_13: 322094277182414963
+      notasMerlin3_14: -3668701989743152813
+      notasMerlin3_15: 6164668288399481618
+      notasMerlin3_16: 5182737736602462044
+      notasMerlin3_17: -2518929006738854986
+      notasMerlin3_18: 3413650438283160361
+      notasMerlin3_19: -5235098732202146524
+      notasMerlin3_2: 4211792456291691047
+      notasMerlin3_20: -4180901128790017843
+      notasMerlin3_21: 8655509528551640799
+      notasMerlin3_22: -3450115663448679265
+      notasMerlin3_23: -10821148418985890
+      notasMerlin3_24: -7206461154847068735
+      notasMerlin3_25: 5989035775472330361
+      notasMerlin3_26: 929927824503090258
+      notasMerlin3_27: 4663718272401332895
+      notasMerlin3_28: -242383104210506392
+      notasMerlin3_29: -5689804037907634978
+      notasMerlin3_3: -8241344676372410199
+      notasMerlin3_30: 1562238104462118750
+      notasMerlin3_31: -4627202920845084206
+      notasMerlin3_32: -4472251285119884880
+      notasMerlin3_33: 8743413140857723250
+      notasMerlin3_34: 8393155448791186846
+      notasMerlin3_35: -4920177704457521497
+      notasMerlin3_36: 798678836191742742
+      notasMerlin3_37: -2809171328636637440
+      notasMerlin3_38: -3781609425465925623
+      notasMerlin3_39: -6309807743217960209
+      notasMerlin3_4: -5380297067495809460
+      notasMerlin3_40: 6686863786912289466
+      notasMerlin3_41: 1064827002260504808
+      notasMerlin3_42: 800500965331776716
+      notasMerlin3_43: -8886391048561972298
+      notasMerlin3_44: -2345658473430511713
+      notasMerlin3_45: -7485842353641682789
+      notasMerlin3_46: -51367479324977336
+      notasMerlin3_5: 3677585202919541680
+      notasMerlin3_6: 3242873491666500868
+      notasMerlin3_7: -1830168096108507253
+      notasMerlin3_8: -6761674602705709060
+      notasMerlin3_9: 2875006062300427612
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
