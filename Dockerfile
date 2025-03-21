@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 # Instalar el módulo Brotli
-RUN apt-get update && apt-get install -y nginx-module-brotli
+RUN apt-get update && apt-get install -y nginx-plus-module-brotli
 
 # Habilitar el módulo Brotli
 RUN echo "load_module modules/ngx_http_brotli_filter_module.so;" > /etc/nginx/modules-enabled/50-module-brotli.conf
