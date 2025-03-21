@@ -7,16 +7,37 @@ public class Dialogo : MonoBehaviour
     [SerializeField] private GameObject Exclamation_Gray;
     [SerializeField] private GameObject DialoguePanel;
     [SerializeField] private TMP_Text DialogueText;
-    [SerializeField, TextArea(4,6)] private string [] dialogueLines; 
+    [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
 
     private float typingTime = 0.05f;
-    private bool isPlayerInRange; 
+    private bool isPlayerInRange;
     private bool didDialogueStart;
     private int lineIndex;
+    private EnemyMovement enemyMovement;
+    private EnemyValues enemyValues;
+    private Rigidbody2D enemyRb;
 
+    void Start()
+    {
+        enemyMovement = GetComponentInParent<EnemyMovement>();
+        enemyValues = GetComponentInParent<EnemyValues>();
+        enemyRb = GetComponentInParent<Rigidbody2D>();
+        if (enemyRb != null)
+        {
+            enemyRb.bodyType = RigidbodyType2D.Kinematic;
+        }
+        if (enemyMovement != null)
+        {
+            enemyMovement.enabled = false;
+        }
+        if (enemyValues != null)
+        {
+            enemyValues.enabled = false;
+        }
+    }
     void Update()
     {
-        if (isPlayerInRange && Input.GetKeyDown(KeyCode.X))
+        if (isPlayerInRange && (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.JoystickButton7)))
         {
             if (!didDialogueStart)
             {
@@ -56,7 +77,20 @@ public class Dialogo : MonoBehaviour
             didDialogueStart = false;
             DialoguePanel.SetActive(false);
             Exclamation_Gray.SetActive(true);
-            Time.timeScale = 1f; // 🔹 Se corrigió aquí
+            Time.timeScale = 1f;
+            if (enemyRb != null)
+            {
+                enemyRb.bodyType = RigidbodyType2D.Dynamic;
+            }
+            if (enemyMovement != null)
+            {
+                enemyMovement.enabled = true;
+                enemyMovement.StartPatrol();
+            }
+            if (enemyValues != null)
+            {
+                enemyValues.enabled = true;
+            }
         }
     }
 
