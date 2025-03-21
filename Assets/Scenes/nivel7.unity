@@ -4366,9 +4366,61 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8447853969736905217}
     m_Modifications:
+    - target: {fileID: 2354482357237038124, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: m_Mass
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2354482357237038124, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: m_LinearDamping
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2627005798609354197, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
       propertyPath: m_Name
       value: Kael
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111449651250524391, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610589969288295875, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: DialogueText
+      value: 
+      objectReference: {fileID: 1881288096}
+    - target: {fileID: 3610589969288295875, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: DialoguePanel
+      value: 
+      objectReference: {fileID: 441443716}
+    - target: {fileID: 3610589969288295875, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: Exclamation_Gray
+      value: 
+      objectReference: {fileID: 1387650034}
+    - target: {fileID: 3610589969288295875, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610589969288295875, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: "Kael: Crees que podr\xE1s detenerme?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610589969288295875, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: "Lionel: No lo creo, lo s\xE9."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610589969288295875, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: 'Kael: Ya veremos'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907627611893822164, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907627611893822164, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4504192802763113156, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5581234714570178480, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
       propertyPath: DialogueText

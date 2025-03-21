@@ -15,7 +15,7 @@ public class EnemyMovement : MonoBehaviour
     public float stopChaseDistance = 1f;
     public float escapeDistance = 5f;
     public float attackCooldown = 2f;
-
+    public float attackDelay = 0f;
     private GameObject player;
     private Vector2 movement;
     private bool isChasing = false;
@@ -39,7 +39,6 @@ public class EnemyMovement : MonoBehaviour
 
         enemyValues = GetComponent<EnemyValues>();
 
-        StartCoroutine(MoveRandomly());
     }
 
     void Update()
@@ -85,6 +84,12 @@ public class EnemyMovement : MonoBehaviour
         {
             enemyRb.linearVelocity = enemyRb.linearVelocity.normalized * maxPushSpeed;
         }
+    }
+
+    void OnDisable()
+    {
+        StopAllCoroutines();
+        enemyRb.linearVelocity = Vector2.zero;
     }
 
     IEnumerator MoveRandomly()
@@ -195,6 +200,7 @@ public class EnemyMovement : MonoBehaviour
         animator.SetFloat("Speed", 0);
         animator.SetBool("IsAttacking", true);
 
+        yield return new WaitForSeconds(attackDelay);
         PlayerValues playerValues = player.GetComponent<PlayerValues>();
 
         while (isCollidingWithPlayer)
@@ -252,6 +258,14 @@ public class EnemyMovement : MonoBehaviour
         if (collision.gameObject == player)
         {
             isCollidingWithPlayer = false; // Marcar que el jugador ya no está en colisión
+        }
+    }
+
+    public void StartPatrol()
+    {
+        if (!isChasing && !isAttacking)
+        {
+            StartCoroutine(MoveRandomly());
         }
     }
 }

@@ -11,6 +11,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float dodgeSpeed = 7f;
     [SerializeField] private float dodgeDuration = 0.5f;
     [SerializeField] private float dodgeCooldown = 1f;
+    [SerializeField] private float rapidStaminaRecoveryAmount = 4f;
+    [SerializeField] private float rapidStaminaRecoveryDuration = 2f;
+    [SerializeField] private float rapidStaminaRecoveryCooldown = 10f;
+    private bool canUseRapidStaminaRecovery = true;
     private bool isDodging = false;
     private bool canDodge = true;
     private Coroutine dodgeCoroutine;
@@ -150,12 +154,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.JoystickButton6) || Input.GetKeyDown(KeyCode.Q))
         {
-            Debug.Log("Cambio de arma");
-        }
-
-        if (Input.GetKeyDown(KeyCode.JoystickButton7) || Input.GetKeyDown(KeyCode.E))
-        {
-            Debug.Log("Interactuar con el entorno");
+            StartRapidStaminaRecovery();
         }
     }
 
@@ -468,5 +467,36 @@ public class PlayerMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(dodgeCooldown);
         canDodge = true;
+    }
+
+    private void StartRapidStaminaRecovery()
+    {
+        if (canUseRapidStaminaRecovery && playerValues.currentStamina < playerValues.maxStamina)
+        {
+            StartCoroutine(RapidStaminaRecovery());
+        }
+    }
+
+    private IEnumerator RapidStaminaRecovery()
+    {
+        canUseRapidStaminaRecovery = false;
+
+        float elapsedTime = 0f;
+        float initialStamina = playerValues.currentStamina;
+        float targetStamina = Mathf.Min(playerValues.currentStamina + rapidStaminaRecoveryAmount, playerValues.maxStamina);
+
+        while (elapsedTime < rapidStaminaRecoveryDuration)
+        {
+            playerValues.currentStamina = (int)Mathf.Lerp(initialStamina, targetStamina, elapsedTime / rapidStaminaRecoveryDuration);
+            staminaBar.SetStamina(playerValues.currentStamina);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        playerValues.currentStamina = (int)targetStamina;
+        staminaBar.SetStamina(playerValues.currentStamina);
+
+        yield return new WaitForSeconds(rapidStaminaRecoveryCooldown);
+        canUseRapidStaminaRecovery = true;
     }
 }
