@@ -10,32 +10,54 @@ public class CambioNivel : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("nivel8"))
+        // Detección de la llave
+        if (collision.gameObject.CompareTag("llave"))
+        {
+            PlayerPrefs.SetInt("TieneLlave", 1);  // Guarda que la llave fue recogida
+            Destroy(collision.gameObject);        // Elimina la llave
+            Debug.Log("Llave recogida");
+        }
+
+        // Validación para nivel 5
+        if (collision.gameObject.CompareTag("nivel5"))
+        {
+            if (PlayerPrefs.GetInt("TieneLlave", 0) == 1)  
+            {
+                spawnTagDestino = "SpawnNivel5";
+                StartCoroutine(CargarNivel(4)); 
+            }
+            else
+            {
+                Debug.Log("Necesitas la llave para pasar al nivel 5.");
+                return;  // Bloquea el acceso si no tiene la llave
+            }
+        }
+        else if (collision.gameObject.CompareTag("nivel8"))
         {
             spawnTagDestino = "SpawnFinal";
             StartCoroutine(CargarNivel(7)); 
         }
-        if (collision.gameObject.CompareTag("nivel7"))
+        else if (collision.gameObject.CompareTag("nivel7"))
         {
             spawnTagDestino = "SpawnNivel7";
             StartCoroutine(CargarNivel(6)); 
         }
-         if (collision.gameObject.CompareTag("nivel6"))
+        else if (collision.gameObject.CompareTag("nivel6"))
         {
             spawnTagDestino = "SpawnNivel6";
             StartCoroutine(CargarNivel(5)); 
         }
-        if (collision.gameObject.CompareTag("nivel3"))
+        else if (collision.gameObject.CompareTag("nivel3"))
         {
             spawnTagDestino = "SpawnNivel3";
             StartCoroutine(CargarNivel(2)); 
         }
-        if (collision.gameObject.CompareTag("nivel3.4"))
+        else if (collision.gameObject.CompareTag("nivel3.4"))
         {
             spawnTagDestino = "SpawnNivel3.4";
             StartCoroutine(CargarNivel(2)); 
         }
-        if (collision.gameObject.CompareTag("nivel3.5"))
+        else if (collision.gameObject.CompareTag("nivel3.5"))
         {
             spawnTagDestino = "SpawnNivel3.5";
             StartCoroutine(CargarNivel(2)); 
@@ -55,59 +77,68 @@ public class CambioNivel : MonoBehaviour
             spawnTagDestino = "SpawnNivel1";
             StartCoroutine(CargarNivel(0));
         }
-        if (collision.gameObject.CompareTag("nivel4"))
+        else if (collision.gameObject.CompareTag("nivel4"))
         {
             spawnTagDestino = "SpawnNivel4";
             StartCoroutine(CargarNivel(3)); 
         }
-        if (collision.gameObject.CompareTag("nivel5"))
-        {
-            spawnTagDestino = "SpawnNivel5";
-            StartCoroutine(CargarNivel(4)); 
-        }
-        if (collision.gameObject.CompareTag("nivel5.6"))
+        else if (collision.gameObject.CompareTag("nivel5.6"))
         {
             spawnTagDestino = "SpawnNivel5.6";
             StartCoroutine(CargarNivel(4)); 
         }
-        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("nivel8"))
+        // Detección de la llave
+        if (other.CompareTag("llave"))
+        {
+            PlayerPrefs.SetInt("TieneLlave", 1);  
+            Destroy(other.gameObject);           
+            Debug.Log("Llave recogida");
+        }
+
+        // Validación para nivel 5
+        if (other.CompareTag("nivel5"))
+        {
+            if (PlayerPrefs.GetInt("TieneLlave", 0) == 1)  
+            {
+                spawnTagDestino = "SpawnNivel5";
+                StartCoroutine(CargarNivel(4));  
+            }
+            else
+            {
+                Debug.Log("Necesitas la llave para pasar al nivel 5.");
+                return;  // Bloquea el acceso si no tiene la llave
+            }
+        }
+        else if (other.CompareTag("nivel8"))
         {
             spawnTagDestino = "SpawnFinal";
             StartCoroutine(CargarNivel(7)); 
         }
-        
-        if (other.CompareTag("nivel7"))
+        else if (other.CompareTag("nivel7"))
         {
             spawnTagDestino = "SpawnNivel7";
             StartCoroutine(CargarNivel(6)); 
         }
-        if (other.CompareTag("nivel5.6"))
+        else if (other.CompareTag("nivel5.6"))
         {
             spawnTagDestino = "SpawnNivel5.6";
             StartCoroutine(CargarNivel(4)); 
         }
-
-        if (other.CompareTag("nivel5"))
-        {
-            spawnTagDestino = "SpawnNivel5";
-            StartCoroutine(CargarNivel(4)); 
-        }
-        if (other.CompareTag("nivel4"))
+        else if (other.CompareTag("nivel4"))
         {
             spawnTagDestino = "SpawnNivel4";
             StartCoroutine(CargarNivel(3)); 
         }
-        if (other.CompareTag("nivel3"))
+        else if (other.CompareTag("nivel3"))
         {
             spawnTagDestino = "SpawnNivel3";
             StartCoroutine(CargarNivel(2)); 
         }
-        if (other.CompareTag("nivel3.4"))
+        else if (other.CompareTag("nivel3.4"))
         {
             spawnTagDestino = "SpawnNivel3.4";
             StartCoroutine(CargarNivel(2)); 
@@ -127,7 +158,6 @@ public class CambioNivel : MonoBehaviour
             spawnTagDestino = "SpawnNivel1";
             StartCoroutine(CargarNivel(0));
         }
-        
     }
 
     IEnumerator CargarNivel(int levelIndex)
@@ -168,7 +198,6 @@ public class CambioNivel : MonoBehaviour
             }
             else
             {
-                // Si el spawn no se encuentra, usa la última posición guardada
                 float x = PlayerPrefs.GetFloat("JugadorX", 0);
                 float y = PlayerPrefs.GetFloat("JugadorY", 0);
                 jugador.transform.position = new Vector3(x, y, 0);
