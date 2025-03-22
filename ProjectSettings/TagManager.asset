@@ -34,6 +34,7 @@ TagManager:
   - SpawnFinal
   - Enemy
   - PLAYER
+  - llave
   layers:
   - Default
   - TransparentFX
