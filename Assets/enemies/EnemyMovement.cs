@@ -100,9 +100,16 @@ public class EnemyMovement : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
         }
     }
-
+    private int maxAttempts = 10;
+    private int currentAttempts = 0;
     void ChooseRandomDirection()
     {
+        if (currentAttempts >= maxAttempts)
+        {
+            StartCoroutine(MoveToPosition(enemyRb.position));
+            currentAttempts = 0;
+            return;
+        }
         int randomDirection = Random.Range(0, 4);
         float randomDistance = Random.Range(minMoveDistance, maxMoveDistance);
 
@@ -119,9 +126,11 @@ public class EnemyMovement : MonoBehaviour
         if (IsPositionValid(targetPosition))
         {
             StartCoroutine(MoveToPosition(targetPosition));
+            currentAttempts = 0;
         }
         else
         {
+            currentAttempts++;
             ChooseRandomDirection();
         }
     }
