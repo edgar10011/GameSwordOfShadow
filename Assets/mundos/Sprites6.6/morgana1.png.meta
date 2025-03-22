@@ -1,0 +1,4108 @@
+fileFormatVersion: 2
+guid: a5e9fd3c46f6a3941b923f8c059d0403
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4509437056123591708
+    second: morgana1_0
+  - first:
+      213: -1275560079382738081
+    second: morgana1_1
+  - first:
+      213: -3630540771725748421
+    second: morgana1_2
+  - first:
+      213: -7542986076443858470
+    second: morgana1_3
+  - first:
+      213: 4340542356162404355
+    second: morgana1_4
+  - first:
+      213: -7998179566057564383
+    second: morgana1_5
+  - first:
+      213: -1910665143644311762
+    second: morgana1_6
+  - first:
+      213: -2266048663672063254
+    second: morgana1_7
+  - first:
+      213: -6841207020362050491
+    second: morgana1_8
+  - first:
+      213: 6194247302638439627
+    second: morgana1_9
+  - first:
+      213: 4834163173131777384
+    second: morgana1_10
+  - first:
+      213: -4111755270177601261
+    second: morgana1_11
+  - first:
+      213: 3985304643704721356
+    second: morgana1_12
+  - first:
+      213: -2586792089555484865
+    second: morgana1_13
+  - first:
+      213: 1050840859056699016
+    second: morgana1_14
+  - first:
+      213: -7161176994023183893
+    second: morgana1_15
+  - first:
+      213: -1240488824520610894
+    second: morgana1_16
+  - first:
+      213: -6174140095633671036
+    second: morgana1_17
+  - first:
+      213: -4939219587842209068
+    second: morgana1_18
+  - first:
+      213: 1139377750863914910
+    second: morgana1_19
+  - first:
+      213: 4055439880919938581
+    second: morgana1_20
+  - first:
+      213: -1634511426256683447
+    second: morgana1_21
+  - first:
+      213: 2177493559953367070
+    second: morgana1_22
+  - first:
+      213: -811238337229932279
+    second: morgana1_23
+  - first:
+      213: -4882683955976193291
+    second: morgana1_24
+  - first:
+      213: 3595154072388401500
+    second: morgana1_25
+  - first:
+      213: 6513770240459500494
+    second: morgana1_26
+  - first:
+      213: 5579646976348747930
+    second: morgana1_27
+  - first:
+      213: -5753381208523928173
+    second: morgana1_28
+  - first:
+      213: 5581106427127084538
+    second: morgana1_29
+  - first:
+      213: -69809562946325511
+    second: morgana1_30
+  - first:
+      213: -8173183970820589672
+    second: morgana1_31
+  - first:
+      213: -2256782448585156962
+    second: morgana1_32
+  - first:
+      213: -3515598267245581262
+    second: morgana1_33
+  - first:
+      213: 853450604049946048
+    second: morgana1_34
+  - first:
+      213: -5379838845028941554
+    second: morgana1_35
+  - first:
+      213: 411131483309162390
+    second: morgana1_36
+  - first:
+      213: -3298073720487935334
+    second: morgana1_37
+  - first:
+      213: 9091786793029140448
+    second: morgana1_38
+  - first:
+      213: -4208218644999443828
+    second: morgana1_39
+  - first:
+      213: -1845916557875268737
+    second: morgana1_40
+  - first:
+      213: -3316107584125459073
+    second: morgana1_41
+  - first:
+      213: 9136789419028727918
+    second: morgana1_42
+  - first:
+      213: -8621423713834647136
+    second: morgana1_43
+  - first:
+      213: 3697165410789609092
+    second: morgana1_44
+  - first:
+      213: -2068348114108407240
+    second: morgana1_45
+  - first:
+      213: -8125142239786059325
+    second: morgana1_46
+  - first:
+      213: 611706894500029349
+    second: morgana1_47
+  - first:
+      213: 6141737576977111886
+    second: morgana1_48
+  - first:
+      213: 889776204006653442
+    second: morgana1_49
+  - first:
+      213: 1751996616631392435
+    second: morgana1_50
+  - first:
+      213: 6375438329547838463
+    second: morgana1_51
+  - first:
+      213: 3264729707469685021
+    second: morgana1_52
+  - first:
+      213: -7439411315884726094
+    second: morgana1_53
+  - first:
+      213: -6157172692948093530
+    second: morgana1_54
+  - first:
+      213: -1935028948575919402
+    second: morgana1_55
+  - first:
+      213: 1983755164787526232
+    second: morgana1_56
+  - first:
+      213: 4123851854670185306
+    second: morgana1_57
+  - first:
+      213: -9182878677316225729
+    second: morgana1_58
+  - first:
+      213: -5140265575964037960
+    second: morgana1_59
+  - first:
+      213: -9051192152695580183
+    second: morgana1_60
+  - first:
+      213: 2287095639526140361
+    second: morgana1_61
+  - first:
+      213: -8607160232682046092
+    second: morgana1_62
+  - first:
+      213: -3536046077021522879
+    second: morgana1_63
+  - first:
+      213: 340173946831462644
+    second: morgana1_64
+  - first:
+      213: -7849581730680609376
+    second: morgana1_65
+  - first:
+      213: -7335807552975886383
+    second: morgana1_66
+  - first:
+      213: -3701220919045211005
+    second: morgana1_67
+  - first:
+      213: -493552342092349553
+    second: morgana1_68
+  - first:
+      213: 4133396040528147787
+    second: morgana1_69
+  - first:
+      213: 7382487844342327975
+    second: morgana1_70
+  - first:
+      213: 8558933948135147826
+    second: morgana1_71
+  - first:
+      213: -9027479882107500334
+    second: morgana1_72
+  - first:
+      213: -9049000113362791471
+    second: morgana1_73
+  - first:
+      213: -7342774379846925018
+    second: morgana1_74
+  - first:
+      213: 6093964854558633832
+    second: morgana1_75
+  - first:
+      213: 4563233587213909164
+    second: morgana1_76
+  - first:
+      213: -110330145165207430
+    second: morgana1_77
+  - first:
+      213: 5958823107264356951
+    second: morgana1_78
+  - first:
+      213: 6559199797618547425
+    second: morgana1_79
+  - first:
+      213: 1017245416041242769
+    second: morgana1_80
+  - first:
+      213: 3115999157489841046
+    second: morgana1_81
+  - first:
+      213: -7017360698014943538
+    second: morgana1_82
+  - first:
+      213: -5696469607307528
+    second: morgana1_83
+  - first:
+      213: 7655291840391057362
+    second: morgana1_84
+  - first:
+      213: 1235375162204331543
+    second: morgana1_85
+  - first:
+      213: 1936874362376891664
+    second: morgana1_86
+  - first:
+      213: 3238874380219713911
+    second: morgana1_87
+  - first:
+      213: 1234342220154004138
+    second: morgana1_88
+  - first:
+      213: -774896901549933195
+    second: morgana1_89
+  - first:
+      213: -8453828772544348363
+    second: morgana1_90
+  - first:
+      213: 5052915422268334926
+    second: morgana1_91
+  - first:
+      213: -4518164060030527006
+    second: morgana1_92
+  - first:
+      213: -4692868397638778098
+    second: morgana1_93
+  - first:
+      213: 2304395862601346712
+    second: morgana1_94
+  - first:
+      213: -2639808027467211486
+    second: morgana1_95
+  - first:
+      213: 8875535658231796554
+    second: morgana1_96
+  - first:
+      213: 7320264710156274037
+    second: morgana1_97
+  - first:
+      213: -1118079627564268815
+    second: morgana1_98
+  - first:
+      213: 3877696728462182490
+    second: morgana1_99
+  - first:
+      213: -4704094761433794435
+    second: morgana1_100
+  - first:
+      213: -2250042835527373455
+    second: morgana1_101
+  - first:
+      213: -1387052894288459306
+    second: morgana1_102
+  - first:
+      213: -4281877995418698637
+    second: morgana1_103
+  - first:
+      213: 8220256269708560279
+    second: morgana1_104
+  - first:
+      213: 2587770691358506017
+    second: morgana1_105
+  - first:
+      213: -6223820425542156233
+    second: morgana1_106
+  - first:
+      213: 7374281792102610210
+    second: morgana1_107
+  - first:
+      213: -3799731086551161306
+    second: morgana1_108
+  - first:
+      213: -1981290949379533051
+    second: morgana1_109
+  - first:
+      213: 2035664512578055031
+    second: morgana1_110
+  - first:
+      213: 4164995185557472500
+    second: morgana1_111
+  - first:
+      213: 1447692606045543522
+    second: morgana1_112
+  - first:
+      213: 533703767065921026
+    second: morgana1_113
+  - first:
+      213: 1697618980268300814
+    second: morgana1_114
+  - first:
+      213: -2040268315545333015
+    second: morgana1_115
+  - first:
+      213: 3444626533928007357
+    second: morgana1_116
+  - first:
+      213: -5593868051344545517
+    second: morgana1_117
+  - first:
+      213: 7689727719964251387
+    second: morgana1_118
+  - first:
+      213: 1013611711191122444
+    second: morgana1_119
+  - first:
+      213: 2321957699981399849
+    second: morgana1_120
+  - first:
+      213: 8314705371709107954
+    second: morgana1_121
+  - first:
+      213: 4737301519429059906
+    second: morgana1_122
+  - first:
+      213: 1169523876640737616
+    second: morgana1_123
+  - first:
+      213: 7124458008001906027
+    second: morgana1_124
+  - first:
+      213: -5283217660509833804
+    second: morgana1_125
+  - first:
+      213: 7956506638670782327
+    second: morgana1_126
+  - first:
+      213: -3014432293716463595
+    second: morgana1_127
+  - first:
+      213: 5238069549925176000
+    second: morgana1_128
+  - first:
+      213: 7435679808925149805
+    second: morgana1_129
+  - first:
+      213: 8981171753367804478
+    second: morgana1_130
+  - first:
+      213: -4543127744409926653
+    second: morgana1_131
+  - first:
+      213: 796394208730859244
+    second: morgana1_132
+  - first:
+      213: 215762137194297863
+    second: morgana1_133
+  - first:
+      213: -8673008326881374022
+    second: morgana1_134
+  - first:
+      213: -1655838970750536438
+    second: morgana1_135
+  - first:
+      213: 3278922659951602119
+    second: morgana1_136
+  - first:
+      213: -2145968289424385025
+    second: morgana1_137
+  - first:
+      213: -2649326460311233597
+    second: morgana1_138
+  - first:
+      213: -6029539538837592964
+    second: morgana1_139
+  - first:
+      213: 1526019219697484668
+    second: morgana1_140
+  - first:
+      213: -7729565488570896145
+    second: morgana1_141
+  - first:
+      213: -1700731577089603828
+    second: morgana1_142
+  - first:
+      213: 208536756870809776
+    second: morgana1_143
+  - first:
+      213: 4579723452671114797
+    second: morgana1_144
+  - first:
+      213: 1487658620944800172
+    second: morgana1_145
+  - first:
+      213: 6224910128077056205
+    second: morgana1_146
+  - first:
+      213: -592199163670946234
+    second: morgana1_147
+  - first:
+      213: 8581084697777176582
+    second: morgana1_148
+  - first:
+      213: 8441485237624144451
+    second: morgana1_149
+  - first:
+      213: -6489648329062643317
+    second: morgana1_150
+  - first:
+      213: 1897903125875520368
+    second: morgana1_151
+  - first:
+      213: 3388875490449549099
+    second: morgana1_152
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: morgana1_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1377
+        width: 386
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cda3b4c1db49e30800000000000000
+      internalID: 4509437056123591708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1568
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b09b2bddc4c4ee0800000000000000
+      internalID: -1275560079382738081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_2
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1535
+        width: 130
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37d6be476abd9dc0800000000000000
+      internalID: -3630540771725748421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_3
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1505
+        width: 62
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5660775, y: 0.17565612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9a8dfb02ee15790800000000000000
+      internalID: -7542986076443858470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_4
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1537
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300e8979644bc3c30800000000000000
+      internalID: 4340542356162404355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_5
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1537
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127d9539f02c00190800000000000000
+      internalID: -7998179566057564383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_6
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1554
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f2c5ccc24fb75e0800000000000000
+      internalID: -1910665143644311762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_7
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1473
+        width: 62
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5220248, y: 0.1585846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaf3161fb06d80e0800000000000000
+      internalID: -2266048663672063254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_8
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1542
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544596416762f01a0800000000000000
+      internalID: -6841207020362050491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1509
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc8fac6a1366f550800000000000000
+      internalID: 6194247302638439627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_10
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1522
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8657bc02bc5661340800000000000000
+      internalID: 4834163173131777384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_11
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1509
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31949b5ed5c10f6c0800000000000000
+      internalID: -4111755270177601261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_12
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1504
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf0cb95575ae4730800000000000000
+      internalID: 3985304643704721356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_13
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1516
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f314acc4ed91cd0800000000000000
+      internalID: -2586792089555484865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_14
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1522
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8867a879136559e00800000000000000
+      internalID: 1050840859056699016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_15
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1509
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be96c8927736e9c90800000000000000
+      internalID: -7161176994023183893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_16
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1510
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb6b9a8cf5e8cee0800000000000000
+      internalID: -1240488824520610894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_17
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1510
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c32468b4c015aa0800000000000000
+      internalID: -6174140095633671036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_18
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1472
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da830734fd547bb0800000000000000
+      internalID: -4939219587842209068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_19
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1477
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e972a391702efcf00800000000000000
+      internalID: 1139377750863914910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_20
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1472
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5167f26c511d74830800000000000000
+      internalID: 4055439880919938581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_21
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1440
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e37a0948c0159e0800000000000000
+      internalID: -1634511426256683447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_22
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1445
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10a8bd1bd2083e10800000000000000
+      internalID: 2177493559953367070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_23
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1445
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9093b39c707edb4f0800000000000000
+      internalID: -811238337229932279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1376
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa3a85cfc83d3cb0800000000000000
+      internalID: -4882683955976193291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1356
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c597285b49d84e130800000000000000
+      internalID: 3595154072388401500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_26
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1345
+        width: 62
+        height: 88
+      alignment: 9
+      pivot: {x: 0.49999803, y: 0.0499545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb6913b58f856a50800000000000000
+      internalID: 6513770240459500494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_27
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1345
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98795ddc53ee6d40800000000000000
+      internalID: 5579646976348747930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_28
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1362
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d06880642e720b0800000000000000
+      internalID: -5753381208523928173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_29
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 1350
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af53f8ab9b2147d40800000000000000
+      internalID: 5581106427127084538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_30
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1311
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3b8a6829cf70ff0800000000000000
+      internalID: -69809562946325511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_31
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1319
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897725f5b74039e80800000000000000
+      internalID: -8173183970820589672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_32
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1317
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96deb8e15c4ea0e0800000000000000
+      internalID: -2256782448585156962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_33
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1330
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c29db9006163fc0800000000000000
+      internalID: -3515598267245581262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_34
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1318
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c55db77dc018db00800000000000000
+      internalID: 853450604049946048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_35
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1281
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01c335f219f655b0800000000000000
+      internalID: -5379838845028941554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_36
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1298
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f3f92e7e1a4b500800000000000000
+      internalID: 411131483309162390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_37
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1281
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a920447dc63ea32d0800000000000000
+      internalID: -3298073720487935334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_38
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1298
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eff61cfae38c2e70800000000000000
+      internalID: 9091786793029140448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_39
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1248
+        width: 34
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5401647, y: 0.08335747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ae1af30776995c0800000000000000
+      internalID: -4208218644999443828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_40
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1285
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7335d2bbacf166e0800000000000000
+      internalID: -1845916557875268737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_41
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1286
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f752933c8b1daf1d0800000000000000
+      internalID: -3316107584125459073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_42
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1286
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6841cc51956cce70800000000000000
+      internalID: 9136789419028727918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_43
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1247
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1c1ce7fcc8a5880800000000000000
+      internalID: -8621423713834647136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_44
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1253
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ec9f94a58fe4330800000000000000
+      internalID: 3697165410789609092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_45
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1234
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83228ba4950cb43e0800000000000000
+      internalID: -2068348114108407240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1216
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9b7088e22bd3f80800000000000000
+      internalID: -8125142239786059325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_47
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1234
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3e459fd283d7800800000000000000
+      internalID: 611706894500029349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_48
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1216
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b936339c5db3550800000000000000
+      internalID: 6141737576977111886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_49
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1221
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e79694ebe195c00800000000000000
+      internalID: 889776204006653442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_50
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1217
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8100ee3a7505810800000000000000
+      internalID: 1751996616631392435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_51
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1222
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3db18d16b1a7850800000000000000
+      internalID: 6375438329547838463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_52
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1222
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1145652f56ae4d20800000000000000
+      internalID: 3264729707469685021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_53
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1125
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b86baae2d6e1c890800000000000000
+      internalID: -7439411315884726094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_54
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1125
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5f710de045d8aa0800000000000000
+      internalID: -6157172692948093530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_55
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1121
+        width: 80
+        height: 96
+      alignment: 9
+      pivot: {x: 0.48292845, y: 0.13013458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2e80a6c656525e0800000000000000
+      internalID: -1935028948575919402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_56
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1089
+        width: 80
+        height: 96
+      alignment: 9
+      pivot: {x: 0.51707, y: 0.14435959}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ac18edfc6b78b10800000000000000
+      internalID: 1983755164787526232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_57
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1093
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53c3f7a96dda3930800000000000000
+      internalID: 4123851854670185306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_58
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1061
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35be07fe7cdf8080800000000000000
+      internalID: -9182878677316225729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_59
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 993
+        width: 62
+        height: 88
+      alignment: 9
+      pivot: {x: 0.49999803, y: 0.03443562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcae7561bb1aa8b0800000000000000
+      internalID: -5140265575964037960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1056
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9d6c041b4b36280800000000000000
+      internalID: -9051192152695580183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_61
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 960
+        width: 34
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5209943, y: 0.08864374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9ec49dd556dbf10800000000000000
+      internalID: 2287095639526140361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_62
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 992
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d3e1efe593d8880800000000000000
+      internalID: -8607160232682046092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_63
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1010
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144f7b5e3d07deec0800000000000000
+      internalID: -3536046077021522879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_64
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 998
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f06bbef66a88b400800000000000000
+      internalID: 340173946831462644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_65
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 978
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5e26b310fa01390800000000000000
+      internalID: -7849581730680609376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_66
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 960
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7ae38b5e9f13a90800000000000000
+      internalID: -7335807552975886383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_67
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 965
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cb01d1f2f92acc0800000000000000
+      internalID: -3701220919045211005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 897
+        width: 62
+        height: 80
+      alignment: 9
+      pivot: {x: 0.47697368, y: 0.07170639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ff58382cc8629f0800000000000000
+      internalID: -493552342092349553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_69
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 966
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45bfa79cc5cc5930800000000000000
+      internalID: 4133396040528147787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_70
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 901
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aae9a0949dd37660800000000000000
+      internalID: 7382487844342327975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_71
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 832
+        width: 34
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23980a2241177c670800000000000000
+      internalID: 8558933948135147826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_72
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 832
+        width: 34
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d84ff970e2f7b280800000000000000
+      internalID: -9027479882107500334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_73
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 908
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d39a8e275e7b6280800000000000000
+      internalID: -9049000113362791471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_74
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 901
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625826fea99391a90800000000000000
+      internalID: -7342774379846925018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_75
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 805
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86faead7fbc129450800000000000000
+      internalID: 6093964854558633832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_76
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 805
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac340145ccd35f30800000000000000
+      internalID: 4563233587213909164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_77
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 800
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7819694157087ef0800000000000000
+      internalID: -110330145165207430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_78
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 799
+        width: 193
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752a1eb7b0ef1b250800000000000000
+      internalID: 5958823107264356951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_79
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 805
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea1edbb675f60b50800000000000000
+      internalID: 6559199797618547425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_80
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 773
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1906888f05bfd1e00800000000000000
+      internalID: 1017245416041242769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_81
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 773
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693399679b04e3b20800000000000000
+      internalID: 3115999157489841046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_82
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 705
+        width: 82
+        height: 96
+      alignment: 9
+      pivot: {x: 0.51665366, y: 0.11590958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6380eef935d9e90800000000000000
+      internalID: -7017360698014943538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_83
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 754
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f625905713cbeff0800000000000000
+      internalID: -5696469607307528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_84
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 736
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df847e8e5f0d3a60800000000000000
+      internalID: 7655291840391057362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_85
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 741
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e978b2a2fe42110800000000000000
+      internalID: 1235375162204331543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_86
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 742
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d290878f821ea10800000000000000
+      internalID: 1936874362376891664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_87
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 742
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7790c19a61bc2fc20800000000000000
+      internalID: 3238874380219713911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_88
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 709
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2eb8b95b3412110800000000000000
+      internalID: 1234342220154004138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_89
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 709
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57db095af530f35f0800000000000000
+      internalID: -774896901549933195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_90
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 673
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f748c8587fdaa80800000000000000
+      internalID: -8453828772544348363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_91
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 690
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43a5681ecf8f1640800000000000000
+      internalID: 5052915422268334926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_92
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 678
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e991f4c9b14c41c0800000000000000
+      internalID: -4518164060030527006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_93
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 639
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0385156e059fdeb0800000000000000
+      internalID: -4692868397638778098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_94
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 645
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89eab3ce3dbdaff10800000000000000
+      internalID: 2304395862601346712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_95
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 645
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d9797d5948d5bd0800000000000000
+      internalID: -2639808027467211486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_96
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 645
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43183418ac3c2b70800000000000000
+      internalID: 8875535658231796554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_97
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 530
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57941be28fdc69560800000000000000
+      internalID: 7320264710156274037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_98
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 449
+        width: 80
+        height: 96
+      alignment: 9
+      pivot: {x: 0.49999923, y: 0.10489241}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f24e68a088cb70f0800000000000000
+      internalID: -1118079627564268815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_99
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 518
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58ceae21a850d530800000000000000
+      internalID: 3877696728462182490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_100
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 449
+        width: 62
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14955597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7876f2ecb2b7beb0800000000000000
+      internalID: -4704094761433794435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_101
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 492
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d6afa56fd36c0e0800000000000000
+      internalID: -2250042835527373455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_102
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 485
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d94247ddb230cce0800000000000000
+      internalID: -1387052894288459306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_103
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 353
+        width: 80
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5273554, y: 0.06687196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cb18746a6b394c0800000000000000
+      internalID: -4281877995418698637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_104
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 417
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79708a64687341270800000000000000
+      internalID: 8220256269708560279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_105
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 432
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c3792bbbb99e320800000000000000
+      internalID: 2587770691358506017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_106
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 416
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7304db55c4c80a9a0800000000000000
+      internalID: -6223820425542156233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_107
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 389
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22538e32836b65660800000000000000
+      internalID: 7374281792102610210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_108
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 402
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626eb1865b4a44bc0800000000000000
+      internalID: -3799731086551161306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_109
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 402
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507598df06a0184e0800000000000000
+      internalID: -1981290949379533051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_110
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 390
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b651ab612204c10800000000000000
+      internalID: 2035664512578055031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_111
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 390
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f48d5edd090dc930800000000000000
+      internalID: 4164995185557472500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_112
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 370
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cdd4741cc371410800000000000000
+      internalID: 1447692606045543522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_113
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 358
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206804b9fb8186700800000000000000
+      internalID: 533703767065921026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_114
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 319
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a5adad7772f8710800000000000000
+      internalID: 1697618980268300814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_115
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 325
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e29f6dd6c28fa3e0800000000000000
+      internalID: -2040268315545333015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_116
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 306
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6f9aa0595cdcf20800000000000000
+      internalID: 3444626533928007357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_117
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 293
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319a33715a69e52b0800000000000000
+      internalID: -5593868051344545517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_118
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 288
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf491ff8e9667ba60800000000000000
+      internalID: 7689727719964251387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_119
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 294
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0209b12b72111e00800000000000000
+      internalID: 1013611711191122444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_120
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 274
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927dfd2d930493020800000000000000
+      internalID: 2321957699981399849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_121
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 268
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fee0cc7b74c36370800000000000000
+      internalID: 8314705371709107954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_122
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 262
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245cc73f1a64eb140800000000000000
+      internalID: 4737301519429059906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_123
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 195
+        width: 62
+        height: 80
+      alignment: 9
+      pivot: {x: 0.52659756, y: 0.12894268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0594287f4cbfa3010800000000000000
+      internalID: 1169523876640737616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_124
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b650420bfc82fd260800000000000000
+      internalID: 7124458008001906027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_125
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 224
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5bd3a878d3ea6b0800000000000000
+      internalID: -5283217660509833804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_126
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 229
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f520be1a03b6e60800000000000000
+      internalID: 7956506638670782327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_127
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 197
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510709dccc59a26d0800000000000000
+      internalID: -3014432293716463595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_128
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 193
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c29410d08c51b840800000000000000
+      internalID: 5238069549925176000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_129
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 197
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a278ae367d03760800000000000000
+      internalID: 7435679808925149805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_130
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 178
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a924a102883ac70800000000000000
+      internalID: 8981171753367804478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_131
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 166
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3048931136193f0c0800000000000000
+      internalID: -4543127744409926653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 289
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6c498305c5d0b00800000000000000
+      internalID: 796394208730859244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_133
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 133
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70af177458a8ef200800000000000000
+      internalID: 215762137194297863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_134
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 129
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab01b36d0e843a780800000000000000
+      internalID: -8673008326881374022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_135
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 65
+        width: 80
+        height: 96
+      alignment: 9
+      pivot: {x: 0.58245546, y: 0.07053455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a057a27aa374509e0800000000000000
+      internalID: -1655838970750536438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_136
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 133
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9e46869c2118d20800000000000000
+      internalID: 3278922659951602119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_137
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 33
+        width: 80
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5412285, y: 0.053356487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb5b99e53df732e0800000000000000
+      internalID: -2145968289424385025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_138
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 101
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb1b1ffe93bb3bd0800000000000000
+      internalID: -2649326460311233597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_139
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 96
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74a96c3cb5c25ca0800000000000000
+      internalID: -6029539538837592964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_140
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 114
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73cc7625628d2510800000000000000
+      internalID: 1526019219697484668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_141
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 102
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0fc9124211bb490800000000000000
+      internalID: -7729565488570896145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_142
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 71
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07c84934a9c568e0800000000000000
+      internalID: -1700731577089603828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_143
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 82
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b885e3531fd4e200800000000000000
+      internalID: 208536756870809776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_144
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 69
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ebcfd37327e8f30800000000000000
+      internalID: 4579723452671114797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_145
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 71
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9567042a935a410800000000000000
+      internalID: 1487658620944800172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_146
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 70
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8a3cec7c2536650800000000000000
+      internalID: 6224910128077056205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_147
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e1c1d8ff518c7f0800000000000000
+      internalID: -592199163670946234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_148
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 50
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6008c8e6113261770800000000000000
+      internalID: 8581084697777176582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_149
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 37
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3428a45491e262570800000000000000
+      internalID: 8441485237624144451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_150
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 33
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8983057a3320f5a0800000000000000
+      internalID: -6489648329062643317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_151
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 38
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073f9e366d4b65a10800000000000000
+      internalID: 1897903125875520368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morgana1_152
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 0
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27e544bd44b70f20800000000000000
+      internalID: 3388875490449549099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fd0c6fc73cbb25141b8207dfd1699cbb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      morgana1_0: 4509437056123591708
+      morgana1_1: -1275560079382738081
+      morgana1_10: 4834163173131777384
+      morgana1_100: -4704094761433794435
+      morgana1_101: -2250042835527373455
+      morgana1_102: -1387052894288459306
+      morgana1_103: -4281877995418698637
+      morgana1_104: 8220256269708560279
+      morgana1_105: 2587770691358506017
+      morgana1_106: -6223820425542156233
+      morgana1_107: 7374281792102610210
+      morgana1_108: -3799731086551161306
+      morgana1_109: -1981290949379533051
+      morgana1_11: -4111755270177601261
+      morgana1_110: 2035664512578055031
+      morgana1_111: 4164995185557472500
+      morgana1_112: 1447692606045543522
+      morgana1_113: 533703767065921026
+      morgana1_114: 1697618980268300814
+      morgana1_115: -2040268315545333015
+      morgana1_116: 3444626533928007357
+      morgana1_117: -5593868051344545517
+      morgana1_118: 7689727719964251387
+      morgana1_119: 1013611711191122444
+      morgana1_12: 3985304643704721356
+      morgana1_120: 2321957699981399849
+      morgana1_121: 8314705371709107954
+      morgana1_122: 4737301519429059906
+      morgana1_123: 1169523876640737616
+      morgana1_124: 7124458008001906027
+      morgana1_125: -5283217660509833804
+      morgana1_126: 7956506638670782327
+      morgana1_127: -3014432293716463595
+      morgana1_128: 5238069549925176000
+      morgana1_129: 7435679808925149805
+      morgana1_13: -2586792089555484865
+      morgana1_130: 8981171753367804478
+      morgana1_131: -4543127744409926653
+      morgana1_132: 796394208730859244
+      morgana1_133: 215762137194297863
+      morgana1_134: -8673008326881374022
+      morgana1_135: -1655838970750536438
+      morgana1_136: 3278922659951602119
+      morgana1_137: -2145968289424385025
+      morgana1_138: -2649326460311233597
+      morgana1_139: -6029539538837592964
+      morgana1_14: 1050840859056699016
+      morgana1_140: 1526019219697484668
+      morgana1_141: -7729565488570896145
+      morgana1_142: -1700731577089603828
+      morgana1_143: 208536756870809776
+      morgana1_144: 4579723452671114797
+      morgana1_145: 1487658620944800172
+      morgana1_146: 6224910128077056205
+      morgana1_147: -592199163670946234
+      morgana1_148: 8581084697777176582
+      morgana1_149: 8441485237624144451
+      morgana1_15: -7161176994023183893
+      morgana1_150: -6489648329062643317
+      morgana1_151: 1897903125875520368
+      morgana1_152: 3388875490449549099
+      morgana1_16: -1240488824520610894
+      morgana1_17: -6174140095633671036
+      morgana1_18: -4939219587842209068
+      morgana1_19: 1139377750863914910
+      morgana1_2: -3630540771725748421
+      morgana1_20: 4055439880919938581
+      morgana1_21: -1634511426256683447
+      morgana1_22: 2177493559953367070
+      morgana1_23: -811238337229932279
+      morgana1_24: -4882683955976193291
+      morgana1_25: 3595154072388401500
+      morgana1_26: 6513770240459500494
+      morgana1_27: 5579646976348747930
+      morgana1_28: -5753381208523928173
+      morgana1_29: 5581106427127084538
+      morgana1_3: -7542986076443858470
+      morgana1_30: -69809562946325511
+      morgana1_31: -8173183970820589672
+      morgana1_32: -2256782448585156962
+      morgana1_33: -3515598267245581262
+      morgana1_34: 853450604049946048
+      morgana1_35: -5379838845028941554
+      morgana1_36: 411131483309162390
+      morgana1_37: -3298073720487935334
+      morgana1_38: 9091786793029140448
+      morgana1_39: -4208218644999443828
+      morgana1_4: 4340542356162404355
+      morgana1_40: -1845916557875268737
+      morgana1_41: -3316107584125459073
+      morgana1_42: 9136789419028727918
+      morgana1_43: -8621423713834647136
+      morgana1_44: 3697165410789609092
+      morgana1_45: -2068348114108407240
+      morgana1_46: -8125142239786059325
+      morgana1_47: 611706894500029349
+      morgana1_48: 6141737576977111886
+      morgana1_49: 889776204006653442
+      morgana1_5: -7998179566057564383
+      morgana1_50: 1751996616631392435
+      morgana1_51: 6375438329547838463
+      morgana1_52: 3264729707469685021
+      morgana1_53: -7439411315884726094
+      morgana1_54: -6157172692948093530
+      morgana1_55: -1935028948575919402
+      morgana1_56: 1983755164787526232
+      morgana1_57: 4123851854670185306
+      morgana1_58: -9182878677316225729
+      morgana1_59: -5140265575964037960
+      morgana1_6: -1910665143644311762
+      morgana1_60: -9051192152695580183
+      morgana1_61: 2287095639526140361
+      morgana1_62: -8607160232682046092
+      morgana1_63: -3536046077021522879
+      morgana1_64: 340173946831462644
+      morgana1_65: -7849581730680609376
+      morgana1_66: -7335807552975886383
+      morgana1_67: -3701220919045211005
+      morgana1_68: -493552342092349553
+      morgana1_69: 4133396040528147787
+      morgana1_7: -2266048663672063254
+      morgana1_70: 7382487844342327975
+      morgana1_71: 8558933948135147826
+      morgana1_72: -9027479882107500334
+      morgana1_73: -9049000113362791471
+      morgana1_74: -7342774379846925018
+      morgana1_75: 6093964854558633832
+      morgana1_76: 4563233587213909164
+      morgana1_77: -110330145165207430
+      morgana1_78: 5958823107264356951
+      morgana1_79: 6559199797618547425
+      morgana1_8: -6841207020362050491
+      morgana1_80: 1017245416041242769
+      morgana1_81: 3115999157489841046
+      morgana1_82: -7017360698014943538
+      morgana1_83: -5696469607307528
+      morgana1_84: 7655291840391057362
+      morgana1_85: 1235375162204331543
+      morgana1_86: 1936874362376891664
+      morgana1_87: 3238874380219713911
+      morgana1_88: 1234342220154004138
+      morgana1_89: -774896901549933195
+      morgana1_9: 6194247302638439627
+      morgana1_90: -8453828772544348363
+      morgana1_91: 5052915422268334926
+      morgana1_92: -4518164060030527006
+      morgana1_93: -4692868397638778098
+      morgana1_94: 2304395862601346712
+      morgana1_95: -2639808027467211486
+      morgana1_96: 8875535658231796554
+      morgana1_97: 7320264710156274037
+      morgana1_98: -1118079627564268815
+      morgana1_99: 3877696728462182490
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
