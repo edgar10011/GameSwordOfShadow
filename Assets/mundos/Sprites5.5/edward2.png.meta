@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: fbf0f3342f108f247b55ee256a509fe6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5973315583590288916
+    second: edward2_0
+  - first:
+      213: 1149222209028798481
+    second: edward2_1
+  - first:
+      213: -6094220028367108313
+    second: edward2_2
+  - first:
+      213: 5682824327150559166
+    second: edward2_3
+  - first:
+      213: -3978885832783104842
+    second: edward2_4
+  - first:
+      213: 4652219204617050130
+    second: edward2_5
+  - first:
+      213: 2041679269639917705
+    second: edward2_6
+  - first:
+      213: -8102323296592818520
+    second: edward2_7
+  - first:
+      213: -3519555413542912673
+    second: edward2_8
+  - first:
+      213: -6951909176505535263
+    second: edward2_9
+  - first:
+      213: -8664350844377506681
+    second: edward2_10
+  - first:
+      213: 8645200896091310615
+    second: edward2_11
+  - first:
+      213: 681293731023157198
+    second: edward2_12
+  - first:
+      213: 3327863918064912192
+    second: edward2_13
+  - first:
+      213: 8500379810136888611
+    second: edward2_14
+  - first:
+      213: 1382223916230709866
+    second: edward2_15
+  - first:
+      213: -171051354759382645
+    second: edward2_16
+  - first:
+      213: -1205780332626656728
+    second: edward2_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: edward2_0
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1473
+        width: 80
+        height: 96
+      alignment: 9
+      pivot: {x: 0.53863066, y: 0.19416809}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e443310ea75e250800000000000000
+      internalID: 5973315583590288916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_1
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 1505
+        width: 62
+        height: 80
+      alignment: 9
+      pivot: {x: 0.54984605, y: 0.2102646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118b621a28bd2ff00800000000000000
+      internalID: 1149222209028798481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1313
+        width: 80
+        height: 96
+      alignment: 9
+      pivot: {x: 0.51931554, y: 0.1619746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7278b1a3c2bfc6ba0800000000000000
+      internalID: -6094220028367108313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_3
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1249
+        width: 80
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5386322, y: 0.1458791}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfd1ccdd927dde40800000000000000
+      internalID: 5682824327150559166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_4
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1153
+        width: 62
+        height: 80
+      alignment: 9
+      pivot: {x: 0.524924, y: 0.19094849}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4f0278a6828c8c0800000000000000
+      internalID: -3978885832783104842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_5
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1217
+        width: 98
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19766633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2181374d7b0009040800000000000000
+      internalID: 4652219204617050130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 961
+        width: 62
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5249232, y: 0.13300094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9809a2c7a70855c10800000000000000
+      internalID: 2041679269639917705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_7
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 865
+        width: 80
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5193157, y: 0.09758822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae8633c3e3ce8f80800000000000000
+      internalID: -8102323296592818520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_8
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 897
+        width: 80
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5193176, y: 0.113684975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5db870bff6082fc0800000000000000
+      internalID: -3519555413542912673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_9
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 737
+        width: 98
+        height: 92
+      alignment: 9
+      pivot: {x: 0.46846476, y: 0.14727916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4fb9fcf6bd58f90800000000000000
+      internalID: -6951909176505535263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_10
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 609
+        width: 98
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5315365, y: 0.16407378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cd58f00da02c780800000000000000
+      internalID: -8664350844377506681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_11
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 577
+        width: 62
+        height: 80
+      alignment: 9
+      pivot: {x: 0.524924, y: 0.07505493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a4967296ce9f770800000000000000
+      internalID: 8645200896091310615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_12
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 417
+        width: 62
+        height: 80
+      alignment: 9
+      pivot: {x: 0.4999995, y: 0.1523178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7f559e901747900800000000000000
+      internalID: 681293731023157198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_13
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 319
+        width: 54
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5572318, y: 0.098231815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04749190a92fe2e20800000000000000
+      internalID: 3327863918064912192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_14
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 129
+        width: 98
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13048156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3259c1f766a67f570800000000000000
+      internalID: 8500379810136888611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_15
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 65
+        width: 62
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07505379}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a621bf61455ae2310800000000000000
+      internalID: 1382223916230709866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_16
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 31
+        width: 54
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4999998, y: 0.19094719}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89b739f2bd40adf0800000000000000
+      internalID: -171051354759382645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edward2_17
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 63
+        width: 54
+        height: 50
+      alignment: 9
+      pivot: {x: 0.52397776, y: 0.20217147}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822c2ac0d25344fe0800000000000000
+      internalID: -1205780332626656728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: da56bd38d7461f841bd8476cbca71e32
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      edward2_0: 5973315583590288916
+      edward2_1: 1149222209028798481
+      edward2_10: -8664350844377506681
+      edward2_11: 8645200896091310615
+      edward2_12: 681293731023157198
+      edward2_13: 3327863918064912192
+      edward2_14: 8500379810136888611
+      edward2_15: 1382223916230709866
+      edward2_16: -171051354759382645
+      edward2_17: -1205780332626656728
+      edward2_2: -6094220028367108313
+      edward2_3: 5682824327150559166
+      edward2_4: -3978885832783104842
+      edward2_5: 4652219204617050130
+      edward2_6: 2041679269639917705
+      edward2_7: -8102323296592818520
+      edward2_8: -3519555413542912673
+      edward2_9: -6951909176505535263
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
