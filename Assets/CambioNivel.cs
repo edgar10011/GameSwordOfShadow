@@ -8,6 +8,12 @@ public class CambioNivel : MonoBehaviour
     public float transitionTime = 1f;
     private string spawnTagDestino;
 
+    private void Start()
+    {
+        // Reinicia la llave al iniciar el nivel
+        PlayerPrefs.SetInt("TieneLlave", 0);
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // Detección de la llave
