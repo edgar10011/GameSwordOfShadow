@@ -18,6 +18,7 @@ public class PlayerValues : MonoBehaviour
     public Text gameOverText;
     private Animator playerAnimator;
     private CanvasGroup gameOverCanvasGroup;
+
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
@@ -40,12 +41,11 @@ public class PlayerValues : MonoBehaviour
             gameOverCanvasGroup.interactable = false;
             gameOverCanvasGroup.blocksRaycasts = false;
         }
-
     }
 
     void Update()
     {
-
+        // Puedes añadir alguna lógica adicional si lo necesitas
     }
 
     public void TakeDamage(int damage)
@@ -68,7 +68,7 @@ public class PlayerValues : MonoBehaviour
         isDead = true;
         animator.SetBool("IsDead", true);
         Debug.Log("Jugador ha muerto");
-        StartCoroutine(ShowGameOver());
+        StartCoroutine(ShowGameOver());  // Mostrar Game Over por 3 segundos
     }
 
     private IEnumerator FlashRed()
@@ -77,13 +77,14 @@ public class PlayerValues : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
         spriteRenderer.color = Color.white;
     }
+
     public void LoseStamina(int stamina)
     {
         currentStamina -= stamina;
         staminaBar.SetStamina(currentStamina);
-        //Si baja de 2 sonar el audio
     }
 
+    // Mostrar el GameOverCanvas y luego reaparecer al jugador
     private IEnumerator ShowGameOver()
     {
         var playerMovement = GetComponent<PlayerMovement>();
@@ -116,6 +117,48 @@ public class PlayerValues : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
 
-        yield return new WaitForSeconds(2f);
+        // Esperar 3 segundos
+        yield return new WaitForSeconds(3f);
+
+        // Ocultar el Game Over canvas
+        if (gameOverCanvasGroup != null)
+        {
+            gameOverCanvasGroup.alpha = 0f;
+            gameOverCanvasGroup.interactable = false;
+            gameOverCanvasGroup.blocksRaycasts = false;
+        }
+
+        // Reaparecer al jugador en la posición guardada del último cambio de nivel
+        RespawnPlayer();
     }
+
+    private void RespawnPlayer()
+{
+    GameObject jugador = GameObject.FindGameObjectWithTag("Player");
+    if (jugador != null)
+    {
+        // COORDENADAS FIJAS DEFINIDAS DIRECTAMENTE EN EL CÓDIGO
+        float respawnX = 5f;
+        float respawnY = -10f;
+
+        jugador.transform.position = new Vector3(respawnX, respawnY, 0);
+
+        var playerMovement = jugador.GetComponent<PlayerMovement>();
+        if (playerMovement != null)
+        {
+            playerMovement.enabled = true;
+        }
+
+        currentHealth = maxHealth;
+        healthBar.SetHealth(currentHealth);
+        currentStamina = maxStamina;
+        staminaBar.SetStamina(currentStamina);
+
+        isDead = false;
+        animator.SetBool("IsDead", false);
+        animator.Rebind();
+    }
+}
+
+
 }

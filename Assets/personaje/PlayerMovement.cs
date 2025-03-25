@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float normalSpeed = 3f;
@@ -14,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float rapidStaminaRecoveryAmount = 4f;
     [SerializeField] private float rapidStaminaRecoveryDuration = 2f;
     [SerializeField] private float rapidStaminaRecoveryCooldown = 10f;
+    
     private bool canUseRapidStaminaRecovery = true;
     private bool isDodging = false;
     private bool canDodge = true;
@@ -25,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isSprinting = false;
     private bool canRegenerateStamina = true;
     private Coroutine staminaDrainCoroutine;
+    
     AudioManager audioManager;
     public PlayerValues playerValues;
 
@@ -37,6 +40,10 @@ public class PlayerMovement : MonoBehaviour
     private Coroutine regenStaminaCoroutine;
 
     private bool canHeal = true;
+
+    // Add a reference to the pause canvas
+    public GameObject pauseCanvas;
+
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
@@ -67,6 +74,7 @@ public class PlayerMovement : MonoBehaviour
 
         DetectArcadeButtons();
     }
+
     private void FixedUpdate()
     {
         if (moveInput.sqrMagnitude > 0 && !playerAnimator.GetBool("IsProtecting"))
@@ -101,6 +109,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void DetectArcadeButtons()
     {
+        // Add P key detection for pause
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            OpenPauseMenu();
+        }
+
         // Ataque (Joystick: Button 0, Teclado: Tecla Espacio)
         if (Input.GetKeyDown(KeyCode.JoystickButton0) || Input.GetKeyDown(KeyCode.Space))
         {
@@ -156,8 +170,50 @@ public class PlayerMovement : MonoBehaviour
         {
             StartRapidStaminaRecovery();
         }
+
+        // Menú/Pausa (Joystick: Button 9, Teclado: Tecla P)
+        if (Input.GetKeyDown(KeyCode.JoystickButton9) || Input.GetKeyDown(KeyCode.P))
+        {
+            OpenPauseMenu();
+        }
+
+        // Nuevo: Recargar WebGL (Joystick: Button 8, Teclado: Tecla R)
+        if (Input.GetKeyDown(KeyCode.JoystickButton8) || Input.GetKeyDown(KeyCode.R))
+        {
+            ReloadWebGLPage();
+        }
     }
 
+    // Updated OpenPauseMenu method to toggle pause canvas and game time
+    private void OpenPauseMenu()
+    {
+        if (pauseCanvas != null)
+        {
+            // Toggle pause canvas
+            pauseCanvas.SetActive(!pauseCanvas.activeInHierarchy);
+
+            // Pause or unpause the game
+            Time.timeScale = pauseCanvas.activeInHierarchy ? 0f : 1f;
+
+            // Optional: Log the pause state
+            Debug.Log(pauseCanvas.activeInHierarchy ? "Game Paused" : "Game Resumed");
+        }
+        else
+        {
+            Debug.LogWarning("Pause Canvas is not assigned in PlayerMovement script!");
+        }
+    }
+
+    // Método para recargar la página WebGL
+    private void ReloadWebGLPage()
+    {
+        #if UNITY_WEBGL
+        // Método para recargar la página en WebGL
+        Application.OpenURL(Application.absoluteURL);
+        #else
+        Debug.Log("Recarga de página solo disponible en WebGL");
+        #endif
+    }
     private void StartSprint()
     {
         if (isDodging) return;

@@ -30,7 +30,7 @@ public class CambioNivel : MonoBehaviour
             if (PlayerPrefs.GetInt("TieneLlave", 0) == 1)  
             {
                 spawnTagDestino = "SpawnNivel5";
-                StartCoroutine(CargarNivel(4)); 
+                StartCoroutine(CargarNivel("Scenes/nivel5")); 
             }
             else
             {
@@ -41,57 +41,57 @@ public class CambioNivel : MonoBehaviour
         else if (collision.gameObject.CompareTag("nivel8"))
         {
             spawnTagDestino = "SpawnFinal";
-            StartCoroutine(CargarNivel(7)); 
+            StartCoroutine(CargarNivel("Scenes/nivel8")); 
         }
         else if (collision.gameObject.CompareTag("nivel7"))
         {
             spawnTagDestino = "SpawnNivel7";
-            StartCoroutine(CargarNivel(6)); 
+            StartCoroutine(CargarNivel("Scenes/nivel7")); 
         }
         else if (collision.gameObject.CompareTag("nivel6"))
         {
             spawnTagDestino = "SpawnNivel6";
-            StartCoroutine(CargarNivel(5)); 
+            StartCoroutine(CargarNivel("Scenes/nivel6")); 
         }
         else if (collision.gameObject.CompareTag("nivel3"))
         {
             spawnTagDestino = "SpawnNivel3";
-            StartCoroutine(CargarNivel(2)); 
+            StartCoroutine(CargarNivel("Scenes/nivel3")); 
         }
         else if (collision.gameObject.CompareTag("nivel3.4"))
         {
             spawnTagDestino = "SpawnNivel3.4";
-            StartCoroutine(CargarNivel(2)); 
+            StartCoroutine(CargarNivel("Scenes/nivel3")); 
         }
         else if (collision.gameObject.CompareTag("nivel3.5"))
         {
             spawnTagDestino = "SpawnNivel3.5";
-            StartCoroutine(CargarNivel(2)); 
+            StartCoroutine(CargarNivel("Scenes/nivel3")); 
         }
         else if (collision.gameObject.CompareTag("nivel2"))
         {
             spawnTagDestino = "SpawnNivel2";
-            StartCoroutine(CargarNivel(1));
+            StartCoroutine(CargarNivel("Scenes/nivel2"));
         }
         else if (collision.gameObject.CompareTag("nivel2.2"))
         {
             spawnTagDestino = "SpawnNivel2.2";
-            StartCoroutine(CargarNivel(1));
+            StartCoroutine(CargarNivel("Scenes/nivel2"));
         }
         else if (collision.gameObject.CompareTag("nivel1"))
         {
             spawnTagDestino = "SpawnNivel1";
-            StartCoroutine(CargarNivel(0));
+            StartCoroutine(CargarNivel("Scenes/nivel1"));
         }
         else if (collision.gameObject.CompareTag("nivel4"))
         {
             spawnTagDestino = "SpawnNivel4";
-            StartCoroutine(CargarNivel(3)); 
+            StartCoroutine(CargarNivel("Scenes/nivel4")); 
         }
         else if (collision.gameObject.CompareTag("nivel5.6"))
         {
             spawnTagDestino = "SpawnNivel5.6";
-            StartCoroutine(CargarNivel(4)); 
+            StartCoroutine(CargarNivel("Scenes/nivel5")); 
         }
     }
 
@@ -111,7 +111,7 @@ public class CambioNivel : MonoBehaviour
             if (PlayerPrefs.GetInt("TieneLlave", 0) == 1)  
             {
                 spawnTagDestino = "SpawnNivel5";
-                StartCoroutine(CargarNivel(4));  
+                StartCoroutine(CargarNivel("Scenes/nivel5"));  
             }
             else
             {
@@ -122,51 +122,51 @@ public class CambioNivel : MonoBehaviour
         else if (other.CompareTag("nivel8"))
         {
             spawnTagDestino = "SpawnFinal";
-            StartCoroutine(CargarNivel(7)); 
+            StartCoroutine(CargarNivel("Scenes/nivel8")); 
         }
         else if (other.CompareTag("nivel7"))
         {
             spawnTagDestino = "SpawnNivel7";
-            StartCoroutine(CargarNivel(6)); 
+            StartCoroutine(CargarNivel("Scenes/nivel7")); 
         }
         else if (other.CompareTag("nivel5.6"))
         {
             spawnTagDestino = "SpawnNivel5.6";
-            StartCoroutine(CargarNivel(4)); 
+            StartCoroutine(CargarNivel("Scenes/nivel5")); 
         }
         else if (other.CompareTag("nivel4"))
         {
             spawnTagDestino = "SpawnNivel4";
-            StartCoroutine(CargarNivel(3)); 
+            StartCoroutine(CargarNivel("Scenes/nivel4")); 
         }
         else if (other.CompareTag("nivel3"))
         {
             spawnTagDestino = "SpawnNivel3";
-            StartCoroutine(CargarNivel(2)); 
+            StartCoroutine(CargarNivel("Scenes/nivel3")); 
         }
         else if (other.CompareTag("nivel3.4"))
         {
             spawnTagDestino = "SpawnNivel3.4";
-            StartCoroutine(CargarNivel(2)); 
+            StartCoroutine(CargarNivel("Scenes/nivel3")); 
         }
         else if (other.CompareTag("nivel2"))
         {
             spawnTagDestino = "SpawnNivel2";
-            StartCoroutine(CargarNivel(1));
+            StartCoroutine(CargarNivel("Scenes/nivel2"));
         }
         else if (other.CompareTag("nivel2.2"))
         {
             spawnTagDestino = "SpawnNivel2.2";
-            StartCoroutine(CargarNivel(1));
+            StartCoroutine(CargarNivel("Scenes/nivel2"));
         }
         else if (other.CompareTag("nivel1"))
         {
             spawnTagDestino = "SpawnNivel1";
-            StartCoroutine(CargarNivel(0));
+            StartCoroutine(CargarNivel("Scenes/nivel1"));
         }
     }
 
-    IEnumerator CargarNivel(int levelIndex)
+    IEnumerator CargarNivel(string nombreNivel)
     {
         if (transition != null)
         {
@@ -183,7 +183,7 @@ public class CambioNivel : MonoBehaviour
         }
 
         yield return new WaitForSeconds(transitionTime);
-        SceneManager.LoadScene(levelIndex);
+        SceneManager.LoadScene(nombreNivel);
 
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
