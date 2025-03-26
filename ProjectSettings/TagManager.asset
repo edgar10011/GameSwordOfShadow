@@ -35,6 +35,7 @@ TagManager:
   - Enemy
   - PLAYER
   - llave
+  - Nivel9
   layers:
   - Default
   - TransparentFX

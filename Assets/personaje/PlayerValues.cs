@@ -137,28 +137,40 @@ public class PlayerValues : MonoBehaviour
     GameObject jugador = GameObject.FindGameObjectWithTag("Player");
     if (jugador != null)
     {
-        // COORDENADAS FIJAS DEFINIDAS DIRECTAMENTE EN EL CÓDIGO
-        float respawnX = 5f;
-        float respawnY = -10f;
+        // Recuperar el spawn guardado al entrar al nivel
+        string savedSpawnTag = PlayerPrefs.GetString("SpawnTag", "");
+        GameObject spawnPoint = GameObject.FindGameObjectWithTag(savedSpawnTag);
 
-        jugador.transform.position = new Vector3(respawnX, respawnY, 0);
-
-        var playerMovement = jugador.GetComponent<PlayerMovement>();
-        if (playerMovement != null)
+        if (spawnPoint != null)
         {
-            playerMovement.enabled = true;
+            // Reaparecer en el spawn guardado
+            jugador.transform.position = spawnPoint.transform.position;
+        }
+        else
+        {
+            // Si no encuentra el spawn, usa la posición guardada como fallback
+            float x = PlayerPrefs.GetFloat("JugadorX", 0);
+            float y = PlayerPrefs.GetFloat("JugadorY", 0);
+            jugador.transform.position = new Vector3(x, y, 0);
         }
 
+        // Restaurar vida y stamina
         currentHealth = maxHealth;
         healthBar.SetHealth(currentHealth);
         currentStamina = maxStamina;
         staminaBar.SetStamina(currentStamina);
 
+        // Reactivar al jugador
         isDead = false;
         animator.SetBool("IsDead", false);
         animator.Rebind();
+        
+        var playerMovement = jugador.GetComponent<PlayerMovement>();
+        if (playerMovement != null)
+        {
+            playerMovement.enabled = true;
+        }
     }
 }
-
 
 }

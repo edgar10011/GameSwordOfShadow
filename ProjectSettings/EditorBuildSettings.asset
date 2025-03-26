@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/nivel8.unity
     guid: ddb8530e1cee4554490b667b12329dd9
+  - enabled: 1
+    path: Assets/Scenes/Cinematica.unity
+    guid: 1d54d01cbddd2bb428d276f2788874ee
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
