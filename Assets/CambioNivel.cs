@@ -93,6 +93,12 @@ public class CambioNivel : MonoBehaviour
             spawnTagDestino = "SpawnNivel5.6";
             StartCoroutine(CargarNivel("Scenes/nivel5")); 
         }
+        else if (collision.gameObject.CompareTag("Nivel9"))
+        {
+            
+            StartCoroutine(CargarNivel("Scenes/Cinematica")); 
+            Debug.Log("Cinematica");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -164,6 +170,11 @@ public class CambioNivel : MonoBehaviour
             spawnTagDestino = "SpawnNivel1";
             StartCoroutine(CargarNivel("Scenes/nivel1"));
         }
+        else if (other.CompareTag("Nivel9"))
+        {
+            
+            StartCoroutine(CargarNivel("Scenes/Cinematica"));
+        }
     }
 
     IEnumerator CargarNivel(string nombreNivel)
@@ -210,4 +221,6 @@ public class CambioNivel : MonoBehaviour
             }
         }
     }
+
+    
 }

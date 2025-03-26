@@ -12632,13 +12632,12 @@ PrefabInstance:
       objectReference: {fileID: 1522406539}
     - target: {fileID: 6052082830906772572, guid: 9c5ea5d767c3f7240bb3b02fa09a5737, type: 3}
       propertyPath: dialogueLines.Array.size
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6052082830906772572, guid: 9c5ea5d767c3f7240bb3b02fa09a5737, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
       value: "Helena: \xA1Leonel! Justo el hombre que necesito. Hay unas criaturas
-        en el bosque que estan atacando a los viajeros. Si te encargas de ellas,
-        te recompensare bien."
+        en el bosque que estan atacando a los viajeros."
       objectReference: {fileID: 0}
     - target: {fileID: 6052082830906772572, guid: 9c5ea5d767c3f7240bb3b02fa09a5737, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
@@ -12651,7 +12650,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6052082830906772572, guid: 9c5ea5d767c3f7240bb3b02fa09a5737, type: 3}
       propertyPath: 'dialogueLines.Array.data[3]'
-      value: 'Leonel: Si el pago es bueno, lo hare.'
+      value: 'Leonel: Claro, sin problema'
       objectReference: {fileID: 0}
     - target: {fileID: 6052082830906772572, guid: 9c5ea5d767c3f7240bb3b02fa09a5737, type: 3}
       propertyPath: 'dialogueLines.Array.data[4]'
@@ -13350,40 +13349,40 @@ PrefabInstance:
       objectReference: {fileID: 1077371336}
     - target: {fileID: 4065459086859580119, guid: f6218fbbf1cb66e40974ccfd982d0bbc, type: 3}
       propertyPath: dialogueLines.Array.size
-      value: 9
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4065459086859580119, guid: f6218fbbf1cb66e40974ccfd982d0bbc, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: 'Duncan: "Esa espada necesita trabajo. Puedo mejorala, pero no gratis.'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4065459086859580119, guid: f6218fbbf1cb66e40974ccfd982d0bbc, type: 3}
-      propertyPath: 'dialogueLines.Array.data[1]'
       value: "Leonel: \xBFCu\xE1nto?"
       objectReference: {fileID: 0}
     - target: {fileID: 4065459086859580119, guid: f6218fbbf1cb66e40974ccfd982d0bbc, type: 3}
-      propertyPath: 'dialogueLines.Array.data[2]'
+      propertyPath: 'dialogueLines.Array.data[1]'
       value: 'Duncan: Depende de que tan fuerte la quieras. Pero si tienes dinero,
         te hare un arma digna de un caballero.'
       objectReference: {fileID: 0}
     - target: {fileID: 4065459086859580119, guid: f6218fbbf1cb66e40974ccfd982d0bbc, type: 3}
-      propertyPath: 'dialogueLines.Array.data[3]'
+      propertyPath: 'dialogueLines.Array.data[2]'
       value: 'Leonel: Primero tengo que completar una mision. Volvere pronto.'
       objectReference: {fileID: 0}
     - target: {fileID: 4065459086859580119, guid: f6218fbbf1cb66e40974ccfd982d0bbc, type: 3}
-      propertyPath: 'dialogueLines.Array.data[4]'
+      propertyPath: 'dialogueLines.Array.data[3]'
       value: 'Duncan: Te estare esperando.'
       objectReference: {fileID: 0}
     - target: {fileID: 4065459086859580119, guid: f6218fbbf1cb66e40974ccfd982d0bbc, type: 3}
-      propertyPath: 'dialogueLines.Array.data[5]'
+      propertyPath: 'dialogueLines.Array.data[4]'
       value: 'Duncan: Veo que cumpliste tu parte. Bien, dejame trabajar.'
       objectReference: {fileID: 0}
     - target: {fileID: 4065459086859580119, guid: f6218fbbf1cb66e40974ccfd982d0bbc, type: 3}
-      propertyPath: 'dialogueLines.Array.data[6]'
+      propertyPath: 'dialogueLines.Array.data[5]'
       value: 'Duncan: Lista. Mas fuerte, mas letal.'
       objectReference: {fileID: 0}
     - target: {fileID: 4065459086859580119, guid: f6218fbbf1cb66e40974ccfd982d0bbc, type: 3}
-      propertyPath: 'dialogueLines.Array.data[7]'
+      propertyPath: 'dialogueLines.Array.data[6]'
       value: 'Leonel: Se siente bien.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4065459086859580119, guid: f6218fbbf1cb66e40974ccfd982d0bbc, type: 3}
+      propertyPath: 'dialogueLines.Array.data[7]'
+      value: 'Duncan: No olvides quien la mejoro.'
       objectReference: {fileID: 0}
     - target: {fileID: 4065459086859580119, guid: f6218fbbf1cb66e40974ccfd982d0bbc, type: 3}
       propertyPath: 'dialogueLines.Array.data[8]'

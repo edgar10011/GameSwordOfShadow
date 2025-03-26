@@ -1411,6 +1411,93 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 441443716}
   m_CullTransparentMesh: 1
+--- !u!1 &444015280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 444015281}
+  - component: {fileID: 444015282}
+  m_Layer: 0
+  m_Name: Exclamation_Gray
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &444015281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444015280}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.7989001, y: 17.41079, z: 0.08056554}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8447853969736905217}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &444015282
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444015280}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: f73f68fe6815f5548a6c2a61b9e49add, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.97, y: 0.98}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &517040334
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3817,16 +3904,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!1 &1387650034 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 797483221013704557, guid: a7a417744f7ce404a9ea744058b4282a, type: 3}
-  m_PrefabInstance: {fileID: 2269833148734064111}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1387650035 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4129215190691106221, guid: a7a417744f7ce404a9ea744058b4282a, type: 3}
-  m_PrefabInstance: {fileID: 2269833148734064111}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1390475054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6684,26 +6761,57 @@ PrefabInstance:
     - target: {fileID: 3610589969288295875, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
       propertyPath: Exclamation_Gray
       value: 
-      objectReference: {fileID: 1387650034}
+      objectReference: {fileID: 444015280}
     - target: {fileID: 3610589969288295875, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
       propertyPath: dialogueLines.Array.size
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3610589969288295875, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: "Kael: Crees que podr\xE1s detenerme?"
+      value: "Lionel: \xBFQuien eres?"
       objectReference: {fileID: 0}
     - target: {fileID: 3610589969288295875, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: "Lionel: No lo creo, lo s\xE9."
+      value: 'Kael: Alguien que ha recorrido este camino antes. Y alguien que sabe
+        lo que les espera.'
       objectReference: {fileID: 0}
     - target: {fileID: 3610589969288295875, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
       propertyPath: 'dialogueLines.Array.data[2]'
-      value: 'Kael: Ya veremos'
+      value: 'Ewan: Si tienes algo que decir, dilo de una vez.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610589969288295875, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: "Kael: La espada no es solo un arma. Es una prueba. \xBFEst\xE1s listo
+        para enfrentar lo que te exige?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610589969288295875, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: "Lionel: No vine hasta aqu\xED para dudar."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610589969288295875, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: 'dialogueLines.Array.data[5]'
+      value: "Kael: Entonces veremos si sobrevives.El camino se abre solo para los
+        decididos. No te detengas... o ser\xE1s devorado por la oscuridad."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907627611893822164, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: m_Size.x
+      value: 4.293122
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907627611893822164, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: m_Size.y
+      value: 2.729733
       objectReference: {fileID: 0}
     - target: {fileID: 3907627611893822164, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907627611893822164, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.116619825
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907627611893822164, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.52203107
       objectReference: {fileID: 0}
     - target: {fileID: 3907627611893822164, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
       propertyPath: m_IsTrigger
@@ -6724,7 +6832,7 @@ PrefabInstance:
     - target: {fileID: 5581234714570178480, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
       propertyPath: Exclamation_Gray
       value: 
-      objectReference: {fileID: 1387650034}
+      objectReference: {fileID: 0}
     - target: {fileID: 5581234714570178480, guid: 271d50e363cb09140b5dd137c8e30942, type: 3}
       propertyPath: dialogueLines.Array.size
       value: 7
@@ -6864,63 +6972,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd438b803419f1c4bbca66635f5b1b2b, type: 3}
---- !u!1001 &2269833148734064111
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 8447853969736905217}
-    m_Modifications:
-    - target: {fileID: 797483221013704557, guid: a7a417744f7ce404a9ea744058b4282a, type: 3}
-      propertyPath: m_Name
-      value: Exclamation_Gray
-      objectReference: {fileID: 0}
-    - target: {fileID: 4129215190691106221, guid: a7a417744f7ce404a9ea744058b4282a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.7070999
-      objectReference: {fileID: 0}
-    - target: {fileID: 4129215190691106221, guid: a7a417744f7ce404a9ea744058b4282a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 13.706789
-      objectReference: {fileID: 0}
-    - target: {fileID: 4129215190691106221, guid: a7a417744f7ce404a9ea744058b4282a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.08056554
-      objectReference: {fileID: 0}
-    - target: {fileID: 4129215190691106221, guid: a7a417744f7ce404a9ea744058b4282a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4129215190691106221, guid: a7a417744f7ce404a9ea744058b4282a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4129215190691106221, guid: a7a417744f7ce404a9ea744058b4282a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4129215190691106221, guid: a7a417744f7ce404a9ea744058b4282a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4129215190691106221, guid: a7a417744f7ce404a9ea744058b4282a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4129215190691106221, guid: a7a417744f7ce404a9ea744058b4282a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4129215190691106221, guid: a7a417744f7ce404a9ea744058b4282a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a7a417744f7ce404a9ea744058b4282a, type: 3}
 --- !u!1001 &4249663594411373951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7324,6 +7375,10 @@ PrefabInstance:
       propertyPath: DialoguePanel
       value: 
       objectReference: {fileID: 441443716}
+    - target: {fileID: 2870290975271753227, guid: 3cda2021f8bd378409c1dfd9f9e8b08c, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4979597185680408833, guid: 3cda2021f8bd378409c1dfd9f9e8b08c, type: 3}
       propertyPath: m_Name
       value: Edwan
@@ -7543,10 +7598,10 @@ PrefabInstance:
       addedObject: {fileID: 902088291}
     - targetCorrespondingSourceObject: {fileID: 8970446302302620255, guid: a5bc36da40259dc4084f08e9ddee5197, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1387650035}
+      addedObject: {fileID: 220766548}
     - targetCorrespondingSourceObject: {fileID: 8970446302302620255, guid: a5bc36da40259dc4084f08e9ddee5197, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 220766548}
+      addedObject: {fileID: 444015281}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5bc36da40259dc4084f08e9ddee5197, type: 3}
 --- !u!4 &8447853969736905217 stripped
