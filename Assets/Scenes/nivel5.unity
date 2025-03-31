@@ -703,11 +703,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 852487985346853842, guid: 0d53fa1a0cdcd994e81f2b927fca6222, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.16
+      value: -2.25
       objectReference: {fileID: 0}
     - target: {fileID: 852487985346853842, guid: 0d53fa1a0cdcd994e81f2b927fca6222, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -4.45
       objectReference: {fileID: 0}
     - target: {fileID: 852487985346853842, guid: 0d53fa1a0cdcd994e81f2b927fca6222, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6356,12 +6356,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2731783954066754950, guid: 2bc1b1a6a7a91c14fbb3c8cbdedf77db, type: 3}
       propertyPath: 'dialogueLines.Array.data[5]'
-      value: "Lionel: No necesito compa\xF1ia."
+      value: 'Lionel: Puedo estar solo.'
       objectReference: {fileID: 0}
     - target: {fileID: 2731783954066754950, guid: 2bc1b1a6a7a91c14fbb3c8cbdedf77db, type: 3}
       propertyPath: 'dialogueLines.Array.data[6]'
-      value: 'Ewan: Tal vez no. Pero si esos bandidos eran solo el principio, te
-        vendria bien alguien que te cubra la espalda.'
+      value: 'Ewan: Tal vez. Pero si esos bandidos eran solo el principio, te vendria
+        bien alguien que te cubra la espalda.'
       objectReference: {fileID: 0}
     - target: {fileID: 2731783954066754950, guid: 2bc1b1a6a7a91c14fbb3c8cbdedf77db, type: 3}
       propertyPath: 'dialogueLines.Array.data[7]'
@@ -6707,6 +6707,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4332225745753197614, guid: 7145adf8de2673c47b0c010bfed5de39, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7024,6 +7028,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1634711527768585700, guid: a1f641adaede20945a88d9fa4a35abab, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1968155183461569613, guid: a1f641adaede20945a88d9fa4a35abab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.03
@@ -7089,6 +7097,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: SpawnNivel5
       objectReference: {fileID: 0}
+    - target: {fileID: 739172432008499423, guid: b58fb8efce9dc2b4a8d854157e54af97, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1473641090848265065, guid: b58fb8efce9dc2b4a8d854157e54af97, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.508572
@@ -7127,6 +7139,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1473641090848265065, guid: b58fb8efce9dc2b4a8d854157e54af97, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2128198822469418025, guid: b58fb8efce9dc2b4a8d854157e54af97, type: 3}
+      propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4828164393927095229, guid: b58fb8efce9dc2b4a8d854157e54af97, type: 3}
