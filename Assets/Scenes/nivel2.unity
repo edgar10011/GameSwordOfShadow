@@ -10340,13 +10340,10 @@ MonoBehaviour:
   dialogueLines:
   - 'Tutorial: Para atacar a los enemigos pulsa espace'
   - 'Tutorial: Para cubrirte pulsa SHIFT'
-  - 'Tutorial: Para correr pulsa CTRL'
   - 'Tutorial: Para hacer un ataque cargado pulsa C'
   - 'Tutorial: Para saltar pulsa Z'
   - 'Tutorial: Para curarte pulsa H'
   - 'Tutorial: Para recuperar energia pulsa O'
-  - 'Tutorial: Para pausar el juego pulsa P'
-  - 'Tutorial: Para interactuar con los NPCS pulsa X'
 --- !u!212 &983480262
 SpriteRenderer:
   m_ObjectHideFlags: 0
