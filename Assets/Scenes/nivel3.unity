@@ -11915,7 +11915,7 @@ PrefabInstance:
       objectReference: {fileID: 1500596263}
     - target: {fileID: 6002888996770874578, guid: 4feb2f1eba2e7e540b8ac1af3db8aad0, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: "\xA1Bienvenido!\n"
+      value: "Maria: \xA1Bienvenido!\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7481583862298971976, guid: 4feb2f1eba2e7e540b8ac1af3db8aad0, type: 3}
       propertyPath: m_LocalPosition.x
